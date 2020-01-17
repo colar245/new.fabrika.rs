@@ -1,1 +1,0 @@
-This is workflow setup for new web projects using "Bootstrap 4" and "Sass"
