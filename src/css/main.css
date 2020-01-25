@@ -1,3 +1,15 @@
+nav {
+  background: white;
+  background-image: url(../img/fabrikaLogo.png);
+  background-size: contain;
+  background-repeat: no-repeat; }
+  nav h1 {
+    font-size: 5em;
+    color: black;
+    text-align: center;
+    text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+    font-family: 'Monoton', cursive; }
+
 body {
   background: #171619;
   color: #fff; }

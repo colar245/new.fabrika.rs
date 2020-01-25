@@ -1,4 +1,20 @@
 $bg-color: #171619;
+nav {
+	background: white;
+	background-image: url(../img/fabrikaLogo.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	h1 {
+		font-size: 5em;
+		//font-weight: bold;
+		color: black;
+		text-align: center;
+		text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+		font-family: 'Monoton', cursive;
+
+	}
+
+}
 
 body {
 	background: $bg-color;
