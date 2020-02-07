@@ -101,13 +101,13 @@ Extra (xl) large devices (large desktops, 1200px and up)
 .page-header {
 	background-color: $bg-sec-color;
 	text-align: center;
-	padding: 20px 0 20px;
 	height: 31vh;
+  min-height: 235px;
+  overflow: hidden;
 }
 .logo {
   text-decoration: none;
   display: inline-block;
-  margin-bottom: 2vh;
   position: relative;
   cursor: pointer;
 }
@@ -174,11 +174,13 @@ Extra (xl) large devices (large desktops, 1200px and up)
     background-color: $bg-sec-color;
   }
   ul{
-    position: fixed;
-    width: 60%;
+    position: absolute;
+    width: 55%;
     height: 100%;
+    margin-top: 70px;
+    overflow: scroll;
     background: $bg-sec-color;
-    top: 31vh;
+    //top: 31vh;
     left: 100%;
     text-align: left;
     transition: all .5s;
