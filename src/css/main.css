@@ -206,13 +206,15 @@ body {
     z-index: 105;
     position: absolute;
     width: 55%;
-    margin-top: 70px;
+    margin-top: 93px;
     overflow: scroll;
     background: #fff;
     visibility: hidden;
     left: 100%;
     text-align: left;
     transition: all .5s; }
+    ul ul {
+      margin-top: 0; }
   #check:checked + label ul {
     visibility: visible;
     left: 45%; }
@@ -220,9 +222,9 @@ body {
     visibility: visible; }
   nav ul li {
     display: block;
-    margin: 50px 0;
     line-height: 30px; }
   nav ul li a {
+    height: 5em;
     font-size: 20px; } }
 
 @media (min-width: 48em) {
@@ -348,3 +350,7 @@ div[data-title]:hover:after {
 
 #hero {
   overflow: hidden; }
+
+.event-card-wrap {
+  background-color: #fff;
+  color: #171619; }
