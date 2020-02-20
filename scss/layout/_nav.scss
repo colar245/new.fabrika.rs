@@ -1,0 +1,35 @@
+.curent-page{
+	font-weight: bold !important;
+	color: _palette(primary-color) !important;
+}
+.logo {
+	display: none;
+	text-decoration: none;
+	position: relative;
+	cursor: pointer;
+	padding: 1em;
+}
+.logo img {
+	width: 30%;
+	overflow: hidden;
+}
+.logo:hover,
+.logo:focus {
+  text-decoration: none;
+}
+
+.header_img_sm {
+	display: inline-block;
+}
+.dropdown_list {
+	margin-left: 1em;
+	list-style: none;
+}
+@media (min-width: 768px) {
+	.logo {
+		display: inline-block;
+	}
+	.header_img_sm {
+		display: none;
+	}
+}
