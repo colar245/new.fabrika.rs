@@ -88,16 +88,13 @@
 	}
 
 	@include breakpoint('<=small') {
-	// 	body {
-	// 		padding: _size(header) 0 0 0;
-	// 	}
 
 		#header {
 			@include vendor('transform', 'translateY(0)');
 			bottom: auto;
 			height: _size(header);
 			padding: 0 1em;
-			top: 0;
+			bottom: 0;
 
 			body.is-preload & {
 				@include vendor('transform', 'translateY(#{_size(header) * -0.85})');

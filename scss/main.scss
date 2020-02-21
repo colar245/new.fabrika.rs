@@ -90,6 +90,13 @@ body {
 
 #hero{
   overflow: hidden;
+  .carousel-inner {
+    max-height: 80vh;
+    img {
+      max-width: 100%;
+      max-height: auto;
+    }
+  }
 }
 
 
