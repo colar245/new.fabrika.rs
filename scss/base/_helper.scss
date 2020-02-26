@@ -89,12 +89,19 @@ hr.light100 {
 .header-m {
   vertical-align: middle;
 }
-
+.active {
+  color: _palette(primary-color);
+  font-weight: _font(weight-bold);
+}
 /* blocklink */
 .blocklink {
   cursor: pointer;
 }
 /* Icons */
+.fas,
+.fab {
+  color: _palette(fg);
+}
 .fa-facebook {
  color:#3b5998
 }
@@ -107,6 +114,7 @@ hr.light100 {
 .fa-youtube {
  color:#b00
 }
+.fa-chevron-circle-up:hover,
 .fa-facebook:hover,
 .fa-instagram:hover,
 .fa-linkedin:hover,

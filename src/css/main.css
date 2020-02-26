@@ -145,11 +145,19 @@ hr.light100 {
 .header-m {
   vertical-align: middle; }
 
+.active {
+  color: #ffbf00;
+  font-weight: 500; }
+
 /* blocklink */
 .blocklink {
   cursor: pointer; }
 
 /* Icons */
+.fas,
+.fab {
+  color: #a0a0a1; }
+
 .fa-facebook {
   color: #3b5998; }
 
@@ -162,6 +170,7 @@ hr.light100 {
 .fa-youtube {
   color: #b00; }
 
+.fa-chevron-circle-up:hover,
 .fa-facebook:hover,
 .fa-instagram:hover,
 .fa-linkedin:hover,
@@ -1197,7 +1206,6 @@ table {
     -ms-transform: translateY(4em);
     transform: translateY(4em); }
   #header h1 {
-    color: #a0a0a1;
     display: inline-block;
     font-size: 1em;
     line-height: 1;
@@ -1236,8 +1244,6 @@ table {
             margin-left: 0.75em; }
           #header nav > ul > li a:hover {
             color: #ffffff !important; }
-          #header nav > ul > li a.active {
-            background-color: #242629; }
 
 @media screen and (max-width: 768px) {
   #header {
@@ -1592,6 +1598,9 @@ table {
         transition-delay: 0.95s; } }
 
 /* Footer */
+#footer p {
+  color: #f8f9fa; }
+
 #footer .copyright {
   color: #505051;
   font-size: 0.9em; }
@@ -1631,12 +1640,14 @@ table {
     display: none; } }
 
 .event_wrap {
-  background-image: url(../img/event_bg5.jpg);
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
-  border-top: 5px solid #ffbf00;
-  border-bottom: 5px solid #ffbf00; }
+  /* Old browser  fallback */
+  background-color: #ffbf00;
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to left, #242629, #ffbf00);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to left, #242629, #ffbf00);
+  border-top: 5px solid #242629;
+  border-bottom: 5px solid #242629; }
   .event_wrap .overlay {
     position: absolute;
     top: 0;

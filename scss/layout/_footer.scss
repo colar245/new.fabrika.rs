@@ -1,6 +1,9 @@
 /* Footer */
 
 	#footer {
+		p {
+			color: _palette(light-color);
+		}
 		.copyright {
 			color: _palette(fg-light);
 			font-size: 0.9em;

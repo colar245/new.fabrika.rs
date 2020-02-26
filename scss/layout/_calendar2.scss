@@ -1,10 +1,16 @@
 .event_wrap {
-  background-image: url(../img/event_bg5.jpg);
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
-  border-top: 5px solid _palette(primary-color);
-  border-bottom: 5px solid _palette(primary-color);
+  //background-image: url(../img/event_bg5.jpg);
+  // background-size: cover;
+  // background-attachment: fixed;
+  // background-position: center;
+  /* Old browser  fallback */
+  background-color: _palette(primary-color);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to left, _palette(bg) , _palette(primary-color));
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to left, _palette(bg) , _palette(primary-color));
+  border-top: 5px solid _palette(bg);
+  border-bottom: 5px solid _palette(bg);
   .overlay {
     background-color: _palette(overlay);
     position: absolute;
