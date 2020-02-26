@@ -1,12 +1,10 @@
-<?php require 'assets/logic/main.php'; ?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<?php WriteHead("Home"); ?>
-</head>
+<?php require 'assets/logic/main.php'; 
+	$location = 'Home';
+	WriteHead($location);
+?>
 <body>
 	<!-- NAVIGATION -->
-	<?php WriteNav('home'); ?>
+	<?php WriteNav($location); ?>
 	<div class="container-fluid p-0">
 		<div class="col-12 span p-0">
 			<div id="hero" class="carousel carousel-fade" data-ride="carousel">
@@ -189,6 +187,15 @@
 	</div>
 	<div class="event-card-wrap">
 		<div class="row p-2 card-deck pt-4">
+			<?php WriteCard(
+				'img/1.jpg',
+				'bfn',
+				'Belgrade fashion nights', 
+				'22.08.2018', 
+				'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus est qui vero itaque culpa illo facere perferendis harum nesciunt ea repudiandae, vitae quisquam assumenda eaque at modi reprehenderit.', 
+				'', 
+				'_bfn.php'
+			); ?>
 			<div class="event-card col-12 col-md-6 col-lg-4 mb-4">
 				<div class="card bg-light border-dark h-100 shadow">
 					<div class="card-body">
@@ -271,5 +278,3 @@
 	</div>
 	<!-- Footer -->
 	<?php WriteFooter(); ?>
-</body>
-</html>

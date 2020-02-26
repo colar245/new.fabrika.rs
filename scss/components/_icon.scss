@@ -1,27 +1,30 @@
-/* Icon */
-
-	.icon {
-		@include icon;
-		border-bottom: none;
-		position: relative;
-
-		> .label {
-			display: none;
-		}
-
-		&:before {
-			line-height: inherit;
-		}
-
-		&.solid {
-			&:before {
-				font-weight: 900;
-			}
-		}
-
-		&.brands {
-			&:before {
-				font-family: 'Font Awesome 5 Brands';
-			}
-		}
-	}
+/* Icons */
+.fas,
+.fab {
+  color: _palette(fg-bold);
+}
+.fa-facebook {
+ color:#3b5998;
+}
+.fa-twitter {
+ color:#00aced;
+}
+.fa-instagram {
+ color:#bc2a8d;
+}
+.fa-youtube {
+ color:#b00000;
+}
+.icon {
+	font-size: 3em;
+	margin-right: .5em;
+	margin-left: .5em;
+}
+.fa-chevron-circle-up:hover,
+.fa-facebook:hover,
+.fa-instagram:hover,
+.fa-linkedin:hover,
+.fa-twitter:hover,
+.fa-youtube:hover {
+	color: _palette(primary-color);
+}

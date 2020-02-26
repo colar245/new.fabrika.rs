@@ -3,4 +3,7 @@
   color: _palette(dark-color);
   padding-bottom: _size(header);
 }
-
+.card-link {
+	color: _palette(dark-color);
+	font-weight: _font(weight-bold);
+}

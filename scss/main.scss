@@ -61,7 +61,6 @@ Extra (xl) large devices (large desktops, 1200px and up)
   @import 'components/icon';
   @import 'components/list';
   @import 'components/actions';
-  @import 'components/icons';
   @import 'components/table';
   @import 'components/panel';
   @import 'components/poptrox-popup';
@@ -94,7 +93,7 @@ body {
     max-height: 80vh;
     img {
       max-width: 100%;
-      max-height: auto;
+      height: auto;
     }
   }
 }
