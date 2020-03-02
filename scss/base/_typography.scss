@@ -11,7 +11,9 @@
 			font-size: 11pt;
 		}
 	}
-
+	select {
+		background-color: _palette(bg-dark);
+	}
 	a {
 		@include vendor('transition', (
 			'color #{_duration(transition)} ease-in-out',

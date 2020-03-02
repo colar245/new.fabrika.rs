@@ -265,6 +265,9 @@ body, input, select, textarea {
     body, input, select, textarea {
       font-size: 11pt; } }
 
+select {
+  background-color: #343a40; }
+
 a {
   -moz-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
   -webkit-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
@@ -1619,6 +1622,18 @@ table {
 .dropdown_list {
   margin-left: 1em;
   list-style: none; }
+
+.filter {
+  border-top-color: #ffbf00;
+  border-top-style: solid;
+  border-top-width: .2em; }
+  .filter .lable {
+    visibility: hidden; }
+  .filter .navbar-nav {
+    flex-direction: row; }
+  @media (min-width: 576px) {
+    .filter .lable {
+      visibility: visible; } }
 
 @media (min-width: 768px) {
   .logo {

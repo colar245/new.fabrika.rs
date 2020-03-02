@@ -32,7 +32,7 @@ function WriteNav($a)
 		<div class="w-100 text-center bg-light logo">
 			<a href="index.php"><img src="img/fabrikaLogo.png" class="" alt="Fabrika logo"></a>
 		</div>
-		<nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+		<nav class="navbar navbar-expand-md navbar-dark bg-dark">
 			<a href="index.php" class="navbar-brand font-weight-bold">
 				<img src="img/fabrikaLogo.png" class="align-top header_img_sm <?php echo ($location === 'Home') ? ' active' : ''; ?>" alt="Fabrika logo">
 				Fabrika

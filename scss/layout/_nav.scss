@@ -26,6 +26,22 @@
 	margin-left: 1em;
 	list-style: none;
 }
+.filter {
+	border-top-color: _palette(primary-color);
+	border-top-style: solid;
+	border-top-width: .2em;
+	.lable {
+		visibility: hidden;
+	}
+	.navbar-nav {
+		flex-direction: row;
+	}
+	@media (min-width: 576px) {
+		.lable {
+			visibility: visible;
+		}
+	}
+}
 @media (min-width: 768px) {
 	.logo {
 		display: inline-block;
