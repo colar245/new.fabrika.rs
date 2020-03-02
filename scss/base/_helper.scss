@@ -55,9 +55,21 @@
   text-transform: lowercase;
 }
 
+hr.primary {
+ border-top:1px solid _palette(primary-color);
+ width:75%;
+ margin-top:.8rem;
+ margin-bottom:1rem
+}
+hr.primary100 {
+ border-top:1px solid _palette(primary-color);
+ width:100%;
+ margin-top:.8rem;
+ margin-bottom:1rem
+}
 hr.light {
  border-top:1px solid _palette(light-color);
- //width:75%;
+ width:75%;
  margin-top:.8rem;
  margin-bottom:1rem
 }

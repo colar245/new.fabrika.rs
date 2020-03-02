@@ -155,3 +155,12 @@ hr {
   color: _palette(primary-color) !important;
   font-weight: _font(weight-bold);
 }
+
+.shade{
+	background-color: _palette(shade);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	min-height: inherit;
+}

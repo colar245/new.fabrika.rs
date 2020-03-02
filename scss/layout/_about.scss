@@ -1,0 +1,14 @@
+.about-wrap {
+	//background-color: blue;
+	background-image: url(../img/about.jpg);
+	background-size: -moz-max-content;
+	background-size: cover;
+	min-height: 100vh;
+	font-weight: _font(weight-bold);
+	.shade {
+		min-height: 100vh;
+	}
+	h1, h2, h3, h4, h5 {
+		color: _palette(light-color);
+	}
+}

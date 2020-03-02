@@ -1,0 +1,10 @@
+#modeling {
+	background-color: _palette(light-color); 
+	color: _palette(dark-color);
+	button {
+		height: max-content;
+		height: -moz-max-content;
+		height: -webkit-max-content;
+		height: -o-max-content;
+	}
+}

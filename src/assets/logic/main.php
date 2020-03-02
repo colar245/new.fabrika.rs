@@ -69,7 +69,7 @@ function WriteFooter()
 		<h1><a href="index.php"><strong>Fabrika</strong> Beograd</a></h1>
 		<nav>
 			<ul>
-				<li><a href="#footer" class="solid">About	<i class="fas fa-chevron-circle-up"></i></a></li>
+				<li><a href="#footer" class="solid">Contact us	<i class="fas fa-chevron-circle-up"></i></a></li>
 			</ul>
 		</nav>
 	</footer>

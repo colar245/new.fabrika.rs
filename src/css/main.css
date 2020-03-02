@@ -114,8 +114,21 @@ Extra (xl) large devices (large desktops, 1200px and up)
 .ttl {
   text-transform: lowercase; }
 
+hr.primary {
+  border-top: 1px solid #ffbf00;
+  width: 75%;
+  margin-top: .8rem;
+  margin-bottom: 1rem; }
+
+hr.primary100 {
+  border-top: 1px solid #ffbf00;
+  width: 100%;
+  margin-top: .8rem;
+  margin-bottom: 1rem; }
+
 hr.light {
   border-top: 1px solid #f8f9fa;
+  width: 75%;
   margin-top: .8rem;
   margin-bottom: 1rem; }
 
@@ -359,6 +372,14 @@ hr {
 .active {
   color: #ffbf00 !important;
   font-weight: 500; }
+
+.shade {
+  background-color: rgba(23, 22, 25, 0.9);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: inherit; }
 
 /* Button */
 input[type="submit"],
@@ -908,7 +929,7 @@ table {
     opacity: 0.25;
     position: absolute;
     right: 0;
-    bottom: 0;
+    top: 0;
     width: 5em;
     z-index: 2; }
     .panel > .closer:hover {
@@ -1707,6 +1728,26 @@ div[data-title]:hover:after {
 .card-link {
   color: #171619;
   font-weight: 500; }
+
+.about-wrap {
+  background-image: url(../img/about.jpg);
+  background-size: -moz-max-content;
+  background-size: cover;
+  min-height: 100vh;
+  font-weight: 500; }
+  .about-wrap .shade {
+    min-height: 100vh; }
+  .about-wrap h1, .about-wrap h2, .about-wrap h3, .about-wrap h4, .about-wrap h5 {
+    color: #f8f9fa; }
+
+#modeling {
+  background-color: #f8f9fa;
+  color: #171619; }
+  #modeling button {
+    height: max-content;
+    height: -moz-max-content;
+    height: -webkit-max-content;
+    height: -o-max-content; }
 
 .row {
   margin-left: 0;
