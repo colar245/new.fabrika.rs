@@ -190,27 +190,32 @@
 			<?php WriteRotate(
 				'img/_iff.jpg',
 				'International Fashion Festival',
-				'Lorem ipsum dolor sit amet, consectetur adipisicing elit. A possimus mollitia sunt qui tempora, ut reprehenderit accusantium vero perferendis ullam.' 
+				'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, voluptatibus.',
+				'_iff.php'
 			); ?>
 			<?php WriteRotate(
 				'img/_bfn.jpg',
 				'Belgrade Fashion Nights',
-				'Lorem ipsum dolor sit amet, consectetur adipisicing elit. A possimus mollitia sunt qui tempora, ut reprehenderit accusantium vero perferendis ullam.' 
+				'Lorem ipsum dolor sit amet, consectetur adipisicing elit. A possimus mollitia sunt qui tempora, ut reprehenderit accusantium vero perferendis ullam.',
+				'_bfn.php'
 			); ?>
 			<?php WriteRotate(
 				'img/_kotor.jpg',
 				'Kotor Fashion Festival',
-				'Lorem ipsum dolor sit amet, consectetur adipisicing elit. A possimus mollitia sunt qui tempora, ut reprehenderit accusantium vero perferendis ullam.' 
+				'Lorem ipsum dolor sit amet, consectetur adipisicing elit. A possimus mollitia sunt qui tempora, ut reprehenderit accusantium vero perferendis ullam.',
+				'_kotor.php'
 			); ?>
 			<?php WriteRotate(
 				'img/_lifestyle.jpg',
-				'Lorem ipsum dolor.',
-				'Lorem ipsum dolor sit amet, consectetur adipisicing elit. A possimus mollitia sunt qui tempora, ut reprehenderit accusantium vero perferendis ullam.' 
+				'Extraordinary Persons',
+				'Lorem ipsum dolor sit amet, consectetur adipisicing elit. A possimus mollitia sunt qui tempora, ut reprehenderit accusantium vero perferendis ullam.',
+				'_lifestyle.php'
 			); ?>
 			<?php WriteRotate(
 				'img/1.jpg',
 				'Lorem ipsum dolor.',
-				'Lorem ipsum dolor sit amet, consectetur adipisicing elit. A possimus mollitia sunt qui tempora, ut reprehenderit accusantium vero perferendis ullam.' 
+				'Lorem ipsum dolor sit amet, consectetur adipisicing elit. A possimus mollitia sunt qui tempora, ut reprehenderit accusantium vero perferendis ullam.',
+				''
 			); ?>
 		</div>
 	</div>

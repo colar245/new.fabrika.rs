@@ -15,7 +15,7 @@
 				<li><a href="#nav_dropdown" class="dropdown-toggle nav-link <?php echo ($location === '') ? ' active' : ''; ?>" id="" data-toggle="collapse" aria-controls="nav_dropdown" aria-expanded="false">Events</a>
 					<ul class="collapse dropdown_list" id="nav_dropdown">
 						<li><a href="#" class="nav-link <?php echo ($location === '') ? ' active' : ''; ?>">International fashion festival</a></li>
-						<li><a href="#" class="nav-link <?php echo ($location === '') ? ' active' : ''; ?>">International Fashion Festival in Kotor </a></li>
+						<li><a href="#" class="nav-link <?php echo ($location === '') ? ' active' : ''; ?>">Extraordinary Persons </a></li>
 						<li><a href="#" class="nav-link <?php echo ($location === '') ? ' active' : ''; ?>">Belgrade fashion nights</a></li>
 						<li><a href="#" class="nav-link <?php echo ($location === '') ? ' active' : ''; ?>">Persons with the best lifestyle</a></li>
 						<li><a href="#" class="nav-link <?php echo ($location === '') ? ' active' : ''; ?>">Music & Fashion</a></li>

@@ -15,7 +15,7 @@
 						<option>IFF</option>
 						<option>BFN</option>
 						<option>Kotor</option>
-						<option>Lifestyle</option>
+						<option>Extraordinary Persons</option>
 						<option>Music&Fashion</option>
 				    </select>
 				</div></li>
@@ -25,7 +25,7 @@
 					<a class="dropdown-item" href="#">International Fashion Festival</a>
 					<a class="dropdown-item" href="#">Belgrade fashion nights</a>
 					<a class="dropdown-item" href="#">Kotor</a>
-					<a class="dropdown-item" href="#">People with the best lifestyle</a>
+					<a class="dropdown-item" href="#">Extraordinary Persons</a>
 					<a class="dropdown-item" href="#">Music & Fashion</a>
 				</div>
 			</a></li> -->

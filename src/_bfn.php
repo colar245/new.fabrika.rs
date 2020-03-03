@@ -28,6 +28,15 @@
 				'', 
 				'_bfn.php'
 			); ?>
+			<?php WriteCard(
+				'img/card3.jpg',
+				'',
+				'Belgrade fashion nights', 
+				'22.08.2018', 
+				'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus est qui vero itaque culpa illo facere perferendis harum nesciunt ea repudiandae, vitae quisquam assumenda eaque at modi reprehenderit.', 
+				'', 
+				'_bfn.php'
+			); ?>
 		</div>
 	</div>
 	<?php WriteFooter() ?>

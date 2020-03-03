@@ -965,7 +965,7 @@ table {
   height: 80vw;
   text-align: center; }
 
-@media (min-width: 768px) {
+@media (min-width: 576px) {
   .r-card {
     width: 50vw;
     height: 40vw; } }
@@ -1010,6 +1010,17 @@ table {
   text-align: center;
   padding: 10%;
   width: 100%; }
+  .r-backCont p {
+    margin: 0 0 1em 0;
+    font-size: 0.8em; }
+  @media (min-width: 1200px) {
+    .r-backCont h2 {
+      font-size: 1em; }
+    .r-backCont p {
+      font-size: 0.6em; } }
+  .r-backCont a {
+    color: #f8f9fa;
+    font-style: italic; }
 
 .r-card:hover > .r-front {
   transform: perspective(600px) rotateY(-180deg); }
