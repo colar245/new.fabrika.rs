@@ -955,6 +955,68 @@ table {
         margin-left: 0;
         width: 100%; } }
 
+.r-wrap {
+  background-color: #f8f9fa; }
+
+.r-card {
+  position: relative;
+  cursor: pointer;
+  width: 100vw;
+  height: 80vw;
+  text-align: center; }
+
+@media (min-width: 768px) {
+  .r-card {
+    width: 50vw;
+    height: 40vw; } }
+
+@media (min-width: 1200px) {
+  .r-card {
+    width: 25vw;
+    height: 20vw; } }
+
+.r-card-img {
+  position: relative;
+  max-width: 100%;
+  height: auto;
+  top: 0;
+  left: 0; }
+
+.r-front,
+.r-back {
+  width: 70%;
+  height: 70%;
+  top: 15%;
+  left: 15%;
+  overflow: hidden;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  transition: transform 600ms linear;
+  border-radius: 4em; }
+
+.r-front {
+  background: #171619;
+  transform: perspective(600px) rotateY(0deg); }
+  .r-front img {
+    height: 100%; }
+
+.r-back {
+  background: #171619;
+  transform: perspective(600px) rotateY(180deg); }
+
+.r-backCont {
+  color: #ffbf00;
+  text-align: center;
+  padding: 10%;
+  width: 100%; }
+
+.r-card:hover > .r-front {
+  transform: perspective(600px) rotateY(-180deg); }
+
+.r-card:hover > .r-back {
+  transform: perspective(600px) rotateY(0deg); }
+
 /* Poptrox Popup */
 .poptrox-overlay {
   -webkit-tap-highlight-color: rgba(255, 255, 255, 0); }
@@ -1766,7 +1828,9 @@ div[data-title]:hover:after {
 
 .row {
   margin-left: 0;
-  margin-right: 0; }
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0; }
 
 .bold {
   font-weight: 800 !important; }

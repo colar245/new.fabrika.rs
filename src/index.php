@@ -185,95 +185,33 @@
 		    </div>
 	    </div>
 	</div>
-	<div class="event-card-wrap">
-		<div class="row p-2 card-deck pt-4">
-			<?php WriteCard(
-				'img/1.jpg',
-				'bfn',
-				'Belgrade fashion nights', 
-				'22.08.2018', 
-				'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus est qui vero itaque culpa illo facere perferendis harum nesciunt ea repudiandae, vitae quisquam assumenda eaque at modi reprehenderit.', 
-				'', 
-				'_bfn.php'
+	<div class="container-fluid row r-wrap">
+		<div class="col-12 row">
+			<?php WriteRotate(
+				'img/_iff.jpg',
+				'International Fashion Festival',
+				'Lorem ipsum dolor sit amet, consectetur adipisicing elit. A possimus mollitia sunt qui tempora, ut reprehenderit accusantium vero perferendis ullam.' 
 			); ?>
-			<div class="event-card col-12 col-md-6 col-lg-4 mb-4">
-				<div class="card bg-light border-dark h-100 shadow">
-					<div class="card-body">
-						<img src="img/card1.jpg" class="card-img-top" alt="...">
-						<h5 class="card-title m-2">Naslov</h5>
-						<h6 class="card-subtitle m-2">Podnaslov</h6>
-						<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus est qui vero itaque culpa illo facere perferendis harum nesciunt ea repudiandae, vitae quisquam assumenda eaque at modi reprehenderit.</p>
-					</div>
-					<div class="card-footer">
-						<a href="#" class="card-link">Lorem ipsum dolor</a>
-					</div>
-				</div>
-			</div>
-			<div class="event-card col-12 col-md-6 col-lg-4 mb-4">
-				<div class="card bg-light border-dark h-100 shadow">
-					<div class="card-body">
-						<img src="img/card2.jpg" class="card-img-top" alt="...">
-						<h5 class="card-title m-2">Naslov</h5>
-						<h6 class="card-subtitle m-2">Podnaslov</h6>
-						<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus est qui vero itaque culpa illo facere perferendis harum nesciunt ea repudiandae, vitae quisquam assumenda eaque at modi reprehenderit.</p>
-					</div>
-					<div class="card-footer">
-						<a href="#" class="card-link">Lorem ipsum dolor</a>
-					</div>
-				</div>
-			</div>
-			<div class="event-card col-12 col-md-6 col-lg-4 mb-4">
-				<div class="card bg-light border-dark h-100 shadow">
-					<div class="card-body">
-						<img src="img/card3.jpg" class="card-img-top" alt="...">
-						<h5 class="card-title m-2">Naslov</h5>
-						<h6 class="card-subtitle m-2">Podnaslov</h6>
-						<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus est qui vero itaque culpa illo facere perferendis harum nesciunt ea repudiandae, vitae quisquam assumenda eaque at modi reprehenderit.</p>
-					</div>
-					<div class="card-footer">
-						<a href="#" class="card-link">Lorem ipsum dolor</a>
-					</div>
-				</div>
-			</div>
-			<div class="event-card col-12 col-md-6 col-lg-4 mb-4">
-				<div class="card bg-light border-dark h-100 shadow">
-					<div class="card-body">
-						<img src="img/card4.jpg" class="card-img-top" alt="...">
-						<h5 class="card-title m-2">Naslov</h5>
-						<h6 class="card-subtitle m-2">Podnaslov</h6>
-						<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus est qui vero itaque culpa illo facere perferendis harum nesciunt ea repudiandae, vitae quisquam assumenda eaque at modi reprehenderit.</p>
-					</div>
-					<div class="card-footer">
-						<a href="#" class="card-link">Lorem ipsum dolor</a>
-					</div>
-				</div>
-			</div>
-			<div class="event-card col-12 col-md-6 col-lg-4 mb-4">
-				<div class="card bg-light border-dark h-100 shadow">
-					<div class="card-body">
-						<img src="img/card5.jpg" class="card-img-top" alt="...">
-						<h5 class="card-title m-2">Naslov</h5>
-						<h6 class="card-subtitle m-2">Podnaslov</h6>
-						<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus est qui vero itaque culpa illo facere perferendis harum nesciunt ea repudiandae, vitae quisquam assumenda eaque at modi reprehenderit.</p>
-					</div>
-					<div class="card-footer">
-						<a href="#" class="card-link">Lorem ipsum dolor</a>
-					</div>
-				</div>
-			</div>
-			<div class="event-card col-12 col-md-6 col-lg-4 mb-4">
-				<div class="card bg-light border-dark h-100 shadow">
-					<div class="card-body">
-						<img src="img/card6.jpg" class="card-img-top" alt="...">
-						<h5 class="card-title m-2">Naslov</h5>
-						<h6 class="card-subtitle m-2">Podnaslov</h6>
-						<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus est qui vero itaque culpa illo facere perferendis harum nesciunt ea repudiandae, vitae quisquam assumenda eaque at modi reprehenderit.</p>
-					</div>
-					<div class="card-footer">
-						<a href="#" class="card-link">Lorem ipsum dolor</a>
-					</div>
-				</div>
-			</div>
+			<?php WriteRotate(
+				'img/_bfn.jpg',
+				'Belgrade Fashion Nights',
+				'Lorem ipsum dolor sit amet, consectetur adipisicing elit. A possimus mollitia sunt qui tempora, ut reprehenderit accusantium vero perferendis ullam.' 
+			); ?>
+			<?php WriteRotate(
+				'img/_kotor.jpg',
+				'Kotor Fashion Festival',
+				'Lorem ipsum dolor sit amet, consectetur adipisicing elit. A possimus mollitia sunt qui tempora, ut reprehenderit accusantium vero perferendis ullam.' 
+			); ?>
+			<?php WriteRotate(
+				'img/_lifestyle.jpg',
+				'Lorem ipsum dolor.',
+				'Lorem ipsum dolor sit amet, consectetur adipisicing elit. A possimus mollitia sunt qui tempora, ut reprehenderit accusantium vero perferendis ullam.' 
+			); ?>
+			<?php WriteRotate(
+				'img/1.jpg',
+				'Lorem ipsum dolor.',
+				'Lorem ipsum dolor sit amet, consectetur adipisicing elit. A possimus mollitia sunt qui tempora, ut reprehenderit accusantium vero perferendis ullam.' 
+			); ?>
 		</div>
 	</div>
 	<!-- Footer -->

@@ -45,7 +45,7 @@ function WriteNav($a)
 					<li><a href="#nav_dropdown" class="dropdown-toggle nav-link <?php echo ($location === '') ? ' active' : ''; ?>" id="" data-toggle="collapse" aria-controls="nav_dropdown" aria-expanded="false">Events</a>
 						<ul class="collapse dropdown_list" id="nav_dropdown">
 							<li><a href="_iff.php" class="nav-link <?php echo ($location === 'International fashion festival') ? ' active' : ''; ?>">International fashion festival</a></li>
-							<li><a href="_kotor.php" class="nav-link <?php echo ($location === 'International Fashion Festival in Kotor') ? ' active' : ''; ?>">International Fashion Festival in Kotor </a></li>
+							<li><a href="_kotor.php" class="nav-link <?php echo ($location === 'Art and Fashion Festival in Kotor') ? ' active' : ''; ?>">Art and Fashion Festival in Kotor </a></li>
 							<li><a href="_bfn.php" class="nav-link <?php echo ($location === 'Belgrade fashion nights') ? ' active' : ''; ?>">Belgrade fashion nights</a></li>
 							<li><a href="_lifestyle.php" class="nav-link <?php echo ($location === 'People with the best lifestyle') ? ' active' : ''; ?>">People with the best lifestyle</a></li>
 							<li><a href="_music.php" class="nav-link <?php echo ($location === 'Music & Fashion') ? ' active' : ''; ?>">Music & Fashion</a></li>
@@ -65,6 +65,7 @@ function WriteNav($a)
 function WriteFooter()
 	{
 	?>
+	<br><br>
 	<footer id="header">
 		<h1><a href="index.php"><strong>Fabrika</strong> Beograd</a></h1>
 		<nav>
@@ -171,8 +172,24 @@ function WriteCard($img, $alt, $title, $subtitle, $body, $link, $href)
 	<?php 
 	}
 
+	function WriteRotate($img, $title, $text)
+		{ 
 
-
-
+		?>
+		<div class="col-12 col-md-6 col-xl-3 row">
+			<div class="r-card">
+				<div class="r-front shadow-lg">
+					<img src="<?= $img; ?>" class="r-card-img" alt="...">
+				</div>
+				<div class="r-back shadow-lg">
+					<div class="r-backCont">
+						<h2><?= $title; ?></h2>
+						<p><?= $text; ?></p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<?php
+		}
 
  ?>
