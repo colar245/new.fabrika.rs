@@ -10,8 +10,10 @@
 	padding: 1em;
 }
 .logo img {
-	width: 30%;
+	// width: 30%;
 	overflow: hidden;
+	max-height: 8em;
+	width: auto;
 }
 .logo:hover,
 .logo:focus {

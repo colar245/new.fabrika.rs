@@ -10,13 +10,13 @@
 }
 @media (min-width: 576px) {
 	.r-card {
-		width: 50vw;
+		// width: 50vw;
 		height: 40vw;
 	}
 }
 @media (min-width: 1200px) {
 	.r-card {
-		width: 25vw;
+		// width: 25vw;
 		height: 20vw;
 	}
 }
@@ -30,8 +30,8 @@
 .r-front,
 .r-back {
 	width: 70%;
-	height: 70%;
-	top: 15%;
+	height: 80%;
+	top: 10%;
 	left: 15%;
 	overflow: hidden;
 	backface-visibility: hidden;

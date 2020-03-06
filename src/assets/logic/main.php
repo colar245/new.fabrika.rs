@@ -132,17 +132,17 @@ function WriteFooter()
 	</footer>
 	<!-- Add Scripts -->
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-	<script type="text/javascript" src="assets/js/jquery.min.js"></script>
+	<script type="text/javascript" src="../node_modules/jquery/dist/jquery.min.js"></script>
 	<script type="text/javascript" src="assets/js/jquery.poptrox.min.js"></script>
-	<script type="text/javascript" src="assets/js/popper.min.js"></script>
-	<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="../node_modules/popper.js/dist/umd/popper.min.js"></script>
+	<script type="text/javascript" src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 	<!-- Multiverse JS -->
 	<script type="text/javascript" src="assets/js/browser.min.js"></script>
 	<script type="text/javascript" src="assets/js/breakpoints.min.js"></script>
 	<script type="text/javascript" src="assets/js/util.js"></script>
 	<script type="text/javascript" src="assets/js/main.js"></script>
 	<!-- Calendar -->
-	<script type="text/javascript" src="assets/js/_calendar.js"></script>
+	<!-- <script type="text/javascript" src="assets/js/_calendar.js"></script> -->
 	<!-- Font CDN -->
 	<script src="https://kit.fontawesome.com/3f7f7bdb28.js" crossorigin="anonymous"></script>
 	<!-- JS not Supported! -->

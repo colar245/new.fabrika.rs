@@ -8,6 +8,7 @@ document.addEventListener('DOMContentLoaded', function(){
         selectedDay,
         setDate,
         daysLen = days.length;
+
 // options should like '2014-01-01'
     function Calendar(selector, options) {
         this.options = options;
