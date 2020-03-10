@@ -1,10 +1,10 @@
 <header>
 	<div class="w-100 text-center bg-light logo">
-		<a href="index.php"><img src="img/fabrikaLogo.png" class="" alt="Fabrika logo"></a>
+		<a href="index.php"><img src="img/logos/fabrika.png" class="" alt="Fabrika logo"></a>
 	</div>
 	<nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
 		<a href="index.php" class="navbar-brand font-weight-bold">
-			<img src="img/fabrikaLogo.png" width="30" height="30" class="align-top header_img_sm <?php echo ($location === 'home') ? ' active' : ''; ?>" alt="Fabrika logo">
+			<img src="img/logos/fabrika.png" width="30" height="30" class="align-top header_img_sm <?php echo ($location === 'home') ? ' active' : ''; ?>" alt="Fabrika logo">
 			Fabrika
 		</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
