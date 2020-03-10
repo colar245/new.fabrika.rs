@@ -106,6 +106,11 @@
 	    </div>
 	</div>
 	<div class="container-fluid row r-wrap">
+		<div class="col-10 m-auto pt-3">
+			<h1 class="font-weight-bold">Fabrika fashion agency </h3>
+			<hr class="primary100">
+			<h2 class="font-italic">organizes innovative campaigns and events for more than 20 years . . .</h2>
+		</div>
 		<div class="col-12 row">
 			<?php WriteRotate(
 				'img/_iff.jpg',
@@ -131,13 +136,16 @@
 				'Lorem ipsum dolor sit amet, consectetur adipisicing elit. A possimus mollitia sunt qui tempora, ut reprehenderit accusantium vero perferendis ullam.',
 				'_lifestyle.php'
 			); ?>
-			<?php WriteRotate(
-				'img/1.jpg',
-				'Lorem ipsum dolor.',
-				'Lorem ipsum dolor sit amet, consectetur adipisicing elit. A possimus mollitia sunt qui tempora, ut reprehenderit accusantium vero perferendis ullam.',
-				''
-			); ?>
 		</div>
+		<div class="col-10 m-auto pt-3">
+			<h2 class="">We work with some of the biggest names in the fashion industry!</h2>
+			<hr class="primary100">
+			<br>
+			<div class="a-c">
+				<img class="w-100" src="img/portfolio.jpg">
+			</div>
+		</div>
+		<br>
 	</div>
 	<!-- Footer -->
 	<?php WriteFooter(); ?>
