@@ -62,7 +62,7 @@ function WriteNav($a)
 	<?php
 	}
 
-function WriteFooter()
+function WriteFooter($location = '')
 	{
 	?>
 	<br><br>
@@ -133,16 +133,101 @@ function WriteFooter()
 	<!-- Add Scripts -->
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 	<script type="text/javascript" src="../node_modules/jquery/dist/jquery.min.js"></script>
-	<script type="text/javascript" src="assets/js/jquery.poptrox.min.js"></script>
 	<script type="text/javascript" src="../node_modules/popper.js/dist/umd/popper.min.js"></script>
 	<script type="text/javascript" src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 	<!-- Multiverse JS -->
+	<script type="text/javascript" src="assets/js/jquery.poptrox.min.js"></script>
 	<script type="text/javascript" src="assets/js/browser.min.js"></script>
 	<script type="text/javascript" src="assets/js/breakpoints.min.js"></script>
 	<script type="text/javascript" src="assets/js/util.js"></script>
 	<script type="text/javascript" src="assets/js/main.js"></script>
-	<!-- Calendar -->
-	<!-- <script type="text/javascript" src="assets/js/_calendar.js"></script> -->
+	<?php if ($location === 'Home') { ?>
+		<!-- Calendar -->
+		<script src="../node_modules/underscore/underscore-min.js"></script>
+	    <script src="../node_modules/moment/min/moment.min.js"></script>
+		<script type="text/javascript" src="assets/js/clndr.js"></script>
+		<script type="text/javascript">
+		// Call this from the developer console and you can control both instances
+	    var calendars = {};
+
+	    $(document).ready( function() {
+
+	        // Assuming you've got the appropriate language files,
+	        // clndr will respect whatever moment's language is set to.
+	        // moment.locale('ru');
+
+	        // Here's some magic to make sure the dates are happening this month.
+	        var thisMonth = moment().format('YYYY-MM');
+	        // console.log(thisMonth);
+	        // Events to load into calendar
+	        var eventArray = [
+	            {
+	                title: 'Multi-Day Event',
+	                endDate: thisMonth + '-14',
+	                startDate: thisMonth + '-10'
+	            }, {
+	                endDate: thisMonth + '-23',
+	                startDate: thisMonth + '-21',
+	                title: 'Another Multi-Day Event'
+	            }, {
+	                date: 	'2020-05' + '-24',
+	                title: 'Another Multi-Day Event'
+	            }, {
+	                date: thisMonth + '-27',
+	                title: 'Single Day Event'
+	            }
+	        ];
+
+	        calendars.clndr1 = $('.cal').clndr({
+	            events: eventArray,
+	            clickEvents: {
+	                click: function (target) {
+	                },
+	                today: function () {
+	                },
+	                nextMonth: function () {
+	                },
+	                previousMonth: function () {
+	                },
+	                onMonthChange: function () {
+	                },
+	                nextYear: function () {
+	                },
+	                previousYear: function () {
+	                },
+	                onYearChange: function () {
+	                },
+	                nextInterval: function () {
+	                },
+	                previousInterval: function () {
+	                },
+	                onIntervalChange: function () {
+	                }
+	            },
+	            multiDayEvents: {
+	                singleDay: 'date',
+	                endDate: 'endDate',
+	                startDate: 'startDate'
+	            },
+	            showAdjacentMonths: true,
+	            adjacentDaysChangeMonth: false
+	        });
+
+	        // Bind all clndrs to the left and right arrow keys
+	        $(document).keydown( function(e) {
+	            // Left arrow
+	            if (e.keyCode == 37) {
+	                calendars.clndr1.back();
+	            }
+
+	            // Right arrow
+	            if (e.keyCode == 39) {
+	                calendars.clndr1.forward();
+	            }
+	        });
+	    });
+		</script>
+	<?php } ?>
 	<!-- Font CDN -->
 	<script src="https://kit.fontawesome.com/3f7f7bdb28.js" crossorigin="anonymous"></script>
 	<!-- JS not Supported! -->

@@ -4,9 +4,6 @@
 @import 'libs/vendor';
 @import 'libs/breakpoints';
 @import '../node_modules/bootstrap/scss/bootstrap.scss';
-// @import 'bootstrap.min.css';
-//@import 'fontawesome-all.min.css';
-//@import url(https://fonts.googleapis.com/css?family=Fjalla+One:400|Roboto:400,400italic,700);
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic|Fjalla+One:400|Roboto:400,400italic,700);
 
 /*
@@ -72,7 +69,7 @@ Extra (xl) large devices (large desktops, 1200px and up)
   @import 'layout/main';
   @import 'layout/footer';
   @import 'layout/nav';
-  @import 'layout/calendar2';
+  @import 'layout/cal';
   @import 'layout/card';
   @import 'layout/about';
   @import 'layout/modeling';

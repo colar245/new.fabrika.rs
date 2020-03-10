@@ -1,7 +1,7 @@
 {
-  "name": "setupproject",
+  "name": "fabrika.rs",
   "version": "1.0.0",
-  "description": "",
+  "description": "Web Site for Fabrika fashion agency",
   "main": "index.html",
   "scripts": {
     "sass": "node-sass -w scss/ -o src/css/ --recursive  --output-style compressed",
@@ -10,10 +10,14 @@
   "author": "Lazar Mladenovic",
   "license": "MIT",
   "devDependencies": {
-    "bootstrap": "^4.3.1",
-    "jquery": "^3.4.1",
-    "node-sass": "^4.13.0",
-    "popper.js": "^1.16.0",
+    "node-sass": "^4.13.1",
     "sass": "^1.23.1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "clndr": "^1.5.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.16.0",
+    "underscore": "^1.9.2"
   }
 }

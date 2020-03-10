@@ -1,12 +1,18 @@
-add calendar logic
-add phpMailer & send mail script + recapcha
-add newsletter support (mailchimp / sendgrid ?)
-modeling page
-extraordinary persons page - awards cards
-card gropdown gallery
-integrate db (gallery logic)
-CMS
-schema.org
-google analitic
+# calendar
+	add calendar logic - DONE
+	optimize cam for smaller screens (<=1200 & <=360)
+# mail
+	add phpMailer & send mail script + recapcha
+	add newsletter support (mailchimp / sendgrid ?)
+# pages
+	modeling page
+	extraordinary persons page - awards cards
+	404 page
+# SQL
+	integrate db (gallery logic)
+	CMS
+card dropdown gallery
+# SEO
+	schema.org
+	google analitic
 .htaccess
-404 page
