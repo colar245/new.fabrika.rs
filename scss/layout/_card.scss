@@ -7,3 +7,11 @@
 	color: _palette(dark-color);
 	font-weight: _font(weight-bold);
 }
+.logo-card {
+	display: block;
+	margin: auto;
+	img {
+		width: 100%;
+		height: auto;
+	}
+}

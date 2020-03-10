@@ -71,12 +71,99 @@
 				'_lifestyle.php'
 			); ?>
 		</div>
-		<div class="col-10 m-auto pt-3">
-			<h2 class="">We work with some of the biggest names in the fashion industry!</h2>
+		<div class="col-12 m-auto pt-3">
+			<h2 class="col-10 m-auto">We work with some of the biggest names in the fashion industry!
 			<hr class="primary100">
+			</h2>
 			<br>
-			<div class="a-c">
-				<img class="w-100" src="img/portfolio.jpg">
+			<div class="a-c row m-auto col-12 col-lg-10">
+				<div class="col-3 col-lg-2 overflow-hidden logo-card">
+					<img alt="Renato Balestra" src="img/logos/balestra.png" >
+				</div>
+				<div class="col-3 col-lg-2 overflow-hidden logo-card">
+					<img alt="Luisa Beccaria" src="img/logos/beccaria.png" >
+				</div>
+				<div class="col-3 col-lg-2 overflow-hidden logo-card">
+					<img alt="Cacharel" src="img/logos/cacharel.png" >
+				</div>
+				<div class="col-3 col-lg-2 overflow-hidden logo-card">
+					<img alt="Pierre Cardin" src="img/logos/cardin.png" >
+				</div>
+				<div class="col-3 col-lg-2 overflow-hidden logo-card">
+					<img alt="Cerruti" src="img/logos/cerruti.png" >
+				</div>
+				<div class="col-3 col-lg-2 overflow-hidden logo-card">
+					<img alt="Alviero Martini 1a Classe" src="img/logos/classe.png" >
+				</div>
+				<div class="col-3 col-lg-2 overflow-hidden logo-card">
+					<img alt="Enrico Coveri" src="img/logos/coveri.png" >
+				</div>
+				<div class="col-3 col-lg-2 overflow-hidden logo-card">
+					<img alt="Dior" src="img/logos/dior.png" >
+				</div>
+				<div class="col-3 col-lg-2 overflow-hidden logo-card">
+					<img alt="DVF" src="img/logos/dvf.png" >
+				</div>
+				<div class="col-3 col-lg-2 overflow-hidden logo-card">
+					<img alt="GF Ferre" src="img/logos/ferre.png" >
+				</div>
+				<div class="col-3 col-lg-2 overflow-hidden logo-card">
+					<img alt="Gattinoni" src="img/logos/gattioni.jpeg" >
+				</div>
+				<div class="col-3 col-lg-2 overflow-hidden logo-card">
+					<img alt="Jean Paul Gaultier" src="img/logos/gaultier.png" >
+				</div>
+				<div class="col-3 col-lg-2 overflow-hidden logo-card">
+					<img alt="Genny" src="img/logos/genny.png" >
+				</div>
+				<div class="col-3 col-lg-2 overflow-hidden logo-card">
+					<img alt="Antonio Grimaldi" src="img/logos/grimaldi.png" >
+				</div>
+				<div class="col-3 col-lg-2 overflow-hidden logo-card">
+					<img alt="Guy Laroche" src="img/logos/guy.png" >
+				</div>
+				<div class="col-3 col-lg-2 overflow-hidden logo-card">
+					<img alt="Rami Kadi" src="img/logos/kadi.png" >
+				</div>
+				<div class="col-3 col-lg-2 overflow-hidden logo-card">
+					<img alt="Calvin Klein" src="img/logos/klein.png" >
+				</div>
+				<div class="col-3 col-lg-2 overflow-hidden logo-card">
+					<img alt="LaQuan Smith" src="img/logos/laquan.png" >
+				</div>
+				<div class="col-3 col-lg-2 overflow-hidden logo-card">
+					<img alt="Leonard Paris" src="img/logos/leonard.png" >
+				</div>
+				<div class="col-3 col-lg-2 overflow-hidden logo-card">
+					<img alt="Max Mara" src="img/logos/maxmara.png" >
+				</div>
+				<div class="col-3 col-lg-2 overflow-hidden logo-card">
+					<img alt="Thierry Mugler" src="img/logos/mugler.png" >
+				</div>
+				<div class="col-3 col-lg-2 overflow-hidden logo-card">
+					<img alt="Zuhair Murad" src="img/logos/murad.jpeg" >
+				</div>
+				<div class="col-3 col-lg-2 overflow-hidden logo-card">
+					<img alt="CoStume National" src="img/logos/national.jpeg" >
+				</div>
+				<div class="col-3 col-lg-2 overflow-hidden logo-card">
+					<img alt="La Perla" src="img/logos/perla.png" >
+				</div>
+				<div class="col-3 col-lg-2 overflow-hidden logo-card">
+					<img alt="Agatha Ruiz de la Prada" src="img/logos/prada.png" >
+				</div>
+				<div class="col-3 col-lg-2 overflow-hidden logo-card">
+					<img alt="Verica Rakočević" src="img/logos/rakocevic.png" >
+				</div>
+				<div class="col-3 col-lg-2 overflow-hidden logo-card">
+					<img alt="RoccoBarocco" src="img/logos/rb.png" >
+				</div>
+				<div class="col-3 col-lg-2 overflow-hidden logo-card">
+					<img alt="Ungaro" src="img/logos/ungaro.png" >
+				</div>
+				<div class="col-3 col-lg-2 overflow-hidden logo-card">
+					<img alt="Versus Versace" src="img/logos/versace.png" >
+				</div>
 			</div>
 		</div>
 		<br>
