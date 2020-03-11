@@ -101,5 +101,15 @@ body {
   }
 }
 
+.alert {
+  font-size: 1em;
+  button {
+    font-size: 1em;
+  }
+  button:hover {
+    box-shadow: none;
+  }
+}
+
 
 
