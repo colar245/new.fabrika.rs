@@ -65,7 +65,7 @@
     extras: null,
     render: null,
     moment: null,
-    weekOffset: 0,
+    weekOffset: 1,
     constraints: null,
     forceSixRows: null,
     selectedDate: null,
