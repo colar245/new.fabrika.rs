@@ -76,7 +76,7 @@
 			<hr class="primary100">
 			</h2>
 			<br>
-			<div class="a-c row m-auto col-12 col-lg-10">
+			<div class="a-c row  mb-3 ml-auto mr-auto col-12 col-lg-10">
 				<div class="col-3 col-lg-2 overflow-hidden logo-card">
 					<img alt="Renato Balestra" src="img/logos/balestra.png" >
 				</div>
@@ -108,7 +108,7 @@
 					<img alt="GF Ferre" src="img/logos/ferre.png" >
 				</div>
 				<div class="col-3 col-lg-2 overflow-hidden logo-card">
-					<img alt="Gattinoni" src="img/logos/gattioni.jpeg" >
+					<img alt="Gattinoni" src="img/logos/gattioni.png" >
 				</div>
 				<div class="col-3 col-lg-2 overflow-hidden logo-card">
 					<img alt="Jean Paul Gaultier" src="img/logos/gaultier.png" >
@@ -141,10 +141,10 @@
 					<img alt="Thierry Mugler" src="img/logos/mugler.png" >
 				</div>
 				<div class="col-3 col-lg-2 overflow-hidden logo-card">
-					<img alt="Zuhair Murad" src="img/logos/murad.jpeg" >
+					<img alt="Zuhair Murad" src="img/logos/murad.png" >
 				</div>
 				<div class="col-3 col-lg-2 overflow-hidden logo-card">
-					<img alt="CoStume National" src="img/logos/national.jpeg" >
+					<img alt="CoStume National" src="img/logos/national.png" >
 				</div>
 				<div class="col-3 col-lg-2 overflow-hidden logo-card">
 					<img alt="La Perla" src="img/logos/perla.png" >

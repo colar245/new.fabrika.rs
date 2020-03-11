@@ -1,6 +1,5 @@
 # calendar
-	add calendar logic - DONE
-	optimize cam for smaller screens (<=1200 & <=360)
+	event name on hover
 # mail
 	add phpMailer & send mail script + recapcha
 	add newsletter support (mailchimp / sendgrid ?)
@@ -11,8 +10,13 @@
 # SQL
 	integrate db (gallery logic)
 	CMS
+	migrate content from old site
 card dropdown gallery
 # SEO
 	schema.org
 	google analitic
-.htaccess
+# DevOps
+	.htaccess
+	robot.txt
+	sitemap.xml
+	add db to C-Panel

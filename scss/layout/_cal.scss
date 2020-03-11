@@ -1,8 +1,4 @@
 .event_wrap {
-  //background-image: url(../img/event_bg5.jpg);
-  // background-size: cover;
-  // background-attachment: fixed;
-  // background-position: center;
   /* Old browser  fallback */
   background-color: _palette(primary-color);
   /* Chrome 10-25, Safari 5.1-6 */
@@ -31,25 +27,43 @@
   max-height: 320px;
   max-width: 700px;
 }
-
+.cal,
+.clndr {
+  text-align: center;
+  text-align: -moz-center;
+  text-align: -ms-center;
+  text-align: -o-center;
+  text-align: -webkit-center;
+  cursor: pointer;
+}
 .month {
   float: left;
-  width: 210px;
+  width: 160px;
   text-align: center;
   color:_palette(light);
   font-weight: bold;
 }
 
+@media (min-width: 992px) {
+  .month {
+    width: 210px;
+  }
+}
+
 .jzdbox1 {
-  width:315px; 
+  width: 245px;
   background:#332f2e; 
   border-radius:5px; 
   overflow:hidden; 
   display:block; 
   margin-bottom:10px; 
   box-shadow:0 0 10px #201d1c; 
-/*  margin:0 auto; 
-  margin-top:100px;*/
+}
+
+@media (min-width: 992px) {
+  .jzdbox1 {
+    width:315px;
+  }
 }
 
 .jzdcal {
@@ -74,16 +88,25 @@
 }
 
 .jzdcal span {
-  font:11px 'Roboto'; 
+  font:10px 'Roboto'; 
   font-weight:400; 
   color:_palette(light); 
   text-align:center; 
-  width:42px; 
-  height:42px; 
+  width: 32px;
+  height: 32px;
   display:inline-block; 
   float:left; 
   overflow:hidden; 
-  line-height:40px;
+  line-height: 30px;
+}
+
+@media (min-width: 992px) {
+  .jzdcal span {
+    font:11px 'Roboto';
+    width:42px; 
+    height:42px;
+    line-height:40px;
+  } 
 }
 
 .jzdcal .next-month .last-month:before {
@@ -129,4 +152,9 @@ div[data-title]:hover:after {
 .clndr-next-button {
   font-size: 1.5em !important;
   font-weight: bold !important;
+}
+
+.clndr-previous-button:hover,
+.clndr-next-button:hover {
+  color: _palette(primary);
 }
