@@ -71,7 +71,7 @@
 				'_lifestyle.php'
 			); ?>
 		</div>
-		<div class="col-12 m-auto pt-3">
+		<div class="col-12 ml-auto mr-auto  mb-5 pt-3">
 			<h2 class="col-10 m-auto">We work with some of the biggest names in the fashion industry!
 			<hr class="primary100">
 			</h2>
