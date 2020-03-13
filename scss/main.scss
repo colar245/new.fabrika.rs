@@ -73,6 +73,7 @@ Extra (xl) large devices (large desktops, 1200px and up)
   @import 'layout/card';
   @import 'layout/about';
   @import 'layout/modeling';
+  @import 'layout/404';
 
 .row {
   margin-left: 0;
@@ -110,6 +111,4 @@ body {
     box-shadow: none;
   }
 }
-
-
 

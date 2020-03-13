@@ -6,7 +6,6 @@
 # pages
 	modeling page
 	extraordinary persons page - awards cards
-	404 page
 # SQL
 	integrate db (gallery logic)
 	CMS
@@ -16,7 +15,7 @@ card dropdown gallery
 	schema.org
 	google analitic
 # DevOps
-	.htaccess
+	.htaccess (started)
 	robot.txt
 	sitemap.xml
 	add db to C-Panel

@@ -108,7 +108,6 @@ function WriteNav($a)
 function WriteFooter($location = '')
 	{
 	?>
-	<br><br>
 	<footer id="header">
 		<h1><a href="index.php"><strong>Fabrika</strong> Beograd</a></h1>
 		<nav>
