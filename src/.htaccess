@@ -1,0 +1,16 @@
+## Turn Rewrite Engine On
+RewriteEngine on
+## Rewrite for index.php
+RewriteRule ^home index.php [NC]
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php [NC,L]
+##Error 404
+ErrorDocument 404 /new.fabrika.rs/src/Error404.php
+## Extra Security Headers
+<IfModule mod_headers.c>
+	Header set X-XSS-Protection "1; mode=block"
+	Header always append X-Frame-Options SAMEORIGIN
+	Header set X-Content-Type-Options nosniff
+</IfModule>
+##Caching
