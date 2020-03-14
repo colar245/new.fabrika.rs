@@ -6,6 +6,7 @@
 		font-weight: _font(weight);
 		letter-spacing: _font(kerning);
 		line-height: 1.65;
+		font-display: swap;
 
 		@include breakpoint('<=xlarge') {
 			font-size: 11pt;
