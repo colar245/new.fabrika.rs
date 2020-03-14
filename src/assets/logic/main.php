@@ -288,7 +288,7 @@ function WriteCard($img, $alt, $title, $subtitle, $body, $link, $href)
 	<div class="event-card col-12 col-md-6 col-lg-4 mb-4">
 		<div class="card bg-light border-dark h-100 shadow">
 			<div class="card-body">
-				<img src="<?= $img; ?>" class="card-img-top" alt="<?= ($alt === '') ? '...' : $alt; ?>">
+				<img srcset="img/sm/<?=$img;?> 500w, img/md/<?=$img;?> 1000w, img/lg/<?=$img;?> 2000w" class="card-img-top" alt="<?= ($alt === '') ? '...' : $alt; ?>">
 				<h5 class="card-title m-2"><?=($title === '') ? 'Naslov' :  $title; ?></h5>
 				<h6 class="card-subtitle m-2"><?= ($subtitle === '') ? '...' : $subtitle; ?></h6>
 				<p class="card-text"><?=($body === '') ? '...' :  $body; ?></p>
@@ -308,7 +308,7 @@ function WriteRotate($img, $title, $text, $href)
 	<div class="col-12 col-sm-6 col-xl-4 row">
 		<div class="r-card">
 			<div class="r-front shadow-lg">
-				<img src="<?= $img; ?>" class="r-card-img" alt="...">
+				<img srcset="img/sm/<?=$img;?> 500w, img/md/<?=$img;?> 1000w, img/lg/<?=$img;?> 2000w" class="r-card-img" alt="...">
 			</div>
 			<div class="r-back shadow-lg">
 				<div class="r-backCont">

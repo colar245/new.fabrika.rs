@@ -11,7 +11,7 @@
 	<div class="event-card-wrap">
 		<div class="row p-2 card-deck pt-4">
 			<?php WriteCard(
-				'img/card1.jpg',
+				'card1.jpg',
 				'',
 				'Belgrade fashion nights', 
 				'22.08.2018', 
@@ -20,7 +20,7 @@
 				'_bfn.php'
 			); ?>
 			<?php WriteCard(
-				'img/card2.jpg',
+				'card2.jpg',
 				'',
 				'Belgrade fashion nights', 
 				'22.08.2018', 
@@ -29,7 +29,7 @@
 				'_bfn.php'
 			); ?>
 			<?php WriteCard(
-				'img/card3.jpg',
+				'card3.jpg',
 				'',
 				'Belgrade fashion nights', 
 				'22.08.2018', 

@@ -10,13 +10,13 @@
 		<div id="hero" class="carousel carousel-fade" data-ride="carousel">
 		  <div class="carousel-inner">
 		    <div class="carousel-item active">
-		      <img src="img/4.jpg" class="d-block w-100" alt="...">
+		      <img srcset="img/sm/4.jpg 500w, img/md/4.jpg 1000w, img/lg/4.jpg 2000w" class="d-block w-100" alt="...">
 		    </div>
 		    <div class="carousel-item">
-		      <img src="img/5.jpg" class="d-block w-100" alt="...">
+		      <img srcset="img/sm/5.jpg 500w, img/md/5.jpg 1000w, img/lg/5.jpg 2000w" class="d-block w-100" alt="...">
 		    </div>
 		    <div class="carousel-item">
-		      <img src="img/6.jpg" class="d-block w-100" alt="...">
+		      <img srcset="img/sm/6.jpg 500w, img/md/6.jpg 1000w, img/lg/6.jpg 2000w" class="d-block w-100" alt="...">
 		    </div>
 		  </div>
 		  <a class="carousel-control-prev" href="#hero" role="button" data-slide="prev">
@@ -35,7 +35,7 @@
 	    		<div class="cal"></div>
 	    	</div>
 		    <div class="col-12 col-md-8 coming-next pb-5 m-auto">
-		    	<img src="img/POZIV.jpg" class="shadow-lg rounded-lg">
+		    	<img srcset="img/sm/POZIV.jpg 500w, img/md/POZIV.jpg 1000w, img/lg/POZIV.jpg 2000w" class="shadow-lg rounded-lg">
 		    </div>
     	</div>
 	</div>
@@ -47,25 +47,25 @@
 		</div>
 		<div class="col-12 row">
 			<?php WriteRotate(
-				'img/_iff.jpg',
+				'_iff.jpg',
 				'International Fashion Festival',
 				'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, voluptatibus.',
 				'_iff.php'
 			); ?>
 			<?php WriteRotate(
-				'img/_bfn.jpg',
+				'_bfn.jpg',
 				'Belgrade Fashion Nights',
 				'Lorem ipsum dolor sit amet, consectetur adipisicing elit. A possimus mollitia sunt qui tempora, ut reprehenderit accusantium vero perferendis ullam.',
 				'_bfn.php'
 			); ?>
 			<?php WriteRotate(
-				'img/_kotor.jpg',
+				'_kotor.jpg',
 				'Kotor Fashion Festival',
 				'Lorem ipsum dolor sit amet, consectetur adipisicing elit. A possimus mollitia sunt qui tempora, ut reprehenderit accusantium vero perferendis ullam.',
 				'_kotor.php'
 			); ?>
 			<?php WriteRotate(
-				'img/_lifestyle.jpg',
+				'_lifestyle.jpg',
 				'Extraordinary Persons',
 				'Lorem ipsum dolor sit amet, consectetur adipisicing elit. A possimus mollitia sunt qui tempora, ut reprehenderit accusantium vero perferendis ullam.',
 				'_lifestyle.php'

@@ -1,13 +1,19 @@
 .about-wrap {
-	background-image: url(../img/about.jpg);
+	background: url("../img/md/about.jpg") no-repeat;
 	background-size: -moz-max-content;
-	background-size: cover;
+	background-size: auto;
 	min-height: 100vh;
 	font-weight: _font(weight-bold);
+	overflow: scroll;
 	.shade {
 		min-height: 100vh;
 	}
 	h1, h2, h3, h4, h5 {
 		color: _palette(light-color);
+	}
+}
+@media (min-width: 1200px) {
+	.about-wrap{
+		background: url("../img/lg/about.jpg") no-repeat;
 	}
 }
