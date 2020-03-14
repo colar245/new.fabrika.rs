@@ -10,13 +10,13 @@
 		<div id="hero" class="carousel carousel-fade" data-ride="carousel">
 		  <div class="carousel-inner">
 		    <div class="carousel-item active">
-		      <img srcset="img/sm/4.jpg 500w, img/md/4.jpg 1000w, img/lg/4.jpg 2000w" class="d-block w-100" alt="...">
+		      <img src="img/sm/4.jpg" srcset="img/sm/4.jpg 500w, img/md/4.jpg 1000w, img/lg/4.jpg 2000w" class="d-block w-100" alt="...">
 		    </div>
 		    <div class="carousel-item">
-		      <img srcset="img/sm/5.jpg 500w, img/md/5.jpg 1000w, img/lg/5.jpg 2000w" class="d-block w-100" alt="...">
+		      <img src="img/sm/5.jpg" srcset="img/sm/5.jpg 500w, img/md/5.jpg 1000w, img/lg/5.jpg 2000w" class="d-block w-100" alt="...">
 		    </div>
 		    <div class="carousel-item">
-		      <img srcset="img/sm/6.jpg 500w, img/md/6.jpg 1000w, img/lg/6.jpg 2000w" class="d-block w-100" alt="...">
+		      <img src="img/sm/6.jpg" srcset="img/sm/6.jpg 500w, img/md/6.jpg 1000w, img/lg/6.jpg 2000w" class="d-block w-100" alt="...">
 		    </div>
 		  </div>
 		  <a class="carousel-control-prev" href="#hero" role="button" data-slide="prev">
@@ -35,7 +35,7 @@
 	    		<div class="cal"></div>
 	    	</div>
 		    <div class="col-12 col-md-8 coming-next pb-5 m-auto">
-		    	<img srcset="img/sm/POZIV.jpg 500w, img/md/POZIV.jpg 1000w, img/lg/POZIV.jpg 2000w" class="shadow-lg rounded-lg">
+		    	<img data-src="img/sm/POZIV.jpg" data-srcset="img/sm/POZIV.jpg 500w, img/md/POZIV.jpg 1000w, img/lg/POZIV.jpg 2000w" class="shadow-lg rounded-lg lazy">
 		    </div>
     	</div>
 	</div>
@@ -78,91 +78,91 @@
 			<br>
 			<div class="a-c row  mb-3 ml-auto mr-auto col-12 col-lg-10">
 				<div class="col-3 col-lg-2 overflow-hidden logo-card">
-					<img alt="Renato Balestra" src="img/logos/balestra.png" >
+					<img alt="Renato Balestra" class="lazy" data-src="img/logos/balestra.png" >
 				</div>
 				<div class="col-3 col-lg-2 overflow-hidden logo-card">
-					<img alt="Luisa Beccaria" src="img/logos/beccaria.png" >
+					<img alt="Luisa Beccaria" class="lazy" data-src="img/logos/beccaria.png" >
 				</div>
 				<div class="col-3 col-lg-2 overflow-hidden logo-card">
-					<img alt="Cacharel" src="img/logos/cacharel.png" >
+					<img alt="Cacharel" class="lazy" data-src="img/logos/cacharel.png" >
 				</div>
 				<div class="col-3 col-lg-2 overflow-hidden logo-card">
-					<img alt="Pierre Cardin" src="img/logos/cardin.png" >
+					<img alt="Pierre Cardin" class="lazy" data-src="img/logos/cardin.png" >
 				</div>
 				<div class="col-3 col-lg-2 overflow-hidden logo-card">
-					<img alt="Cerruti" src="img/logos/cerruti.png" >
+					<img alt="Cerruti" class="lazy" data-src="img/logos/cerruti.png" >
 				</div>
 				<div class="col-3 col-lg-2 overflow-hidden logo-card">
-					<img alt="Alviero Martini 1a Classe" src="img/logos/classe.png" >
+					<img alt="Alviero Martini 1a Classe" class="lazy" data-src="img/logos/classe.png" >
 				</div>
 				<div class="col-3 col-lg-2 overflow-hidden logo-card">
-					<img alt="Enrico Coveri" src="img/logos/coveri.png" >
+					<img alt="Enrico Coveri" class="lazy" data-src="img/logos/coveri.png" >
 				</div>
 				<div class="col-3 col-lg-2 overflow-hidden logo-card">
-					<img alt="Dior" src="img/logos/dior.png" >
+					<img alt="Dior" class="lazy" data-src="img/logos/dior.png" >
 				</div>
 				<div class="col-3 col-lg-2 overflow-hidden logo-card">
-					<img alt="DVF" src="img/logos/dvf.png" >
+					<img alt="DVF" class="lazy" data-src="img/logos/dvf.png" >
 				</div>
 				<div class="col-3 col-lg-2 overflow-hidden logo-card">
-					<img alt="GF Ferre" src="img/logos/ferre.png" >
+					<img alt="GF Ferre" class="lazy" data-src="img/logos/ferre.png" >
 				</div>
 				<div class="col-3 col-lg-2 overflow-hidden logo-card">
-					<img alt="Gattinoni" src="img/logos/gattioni.png" >
+					<img alt="Gattinoni" class="lazy" data-src="img/logos/gattioni.png" >
 				</div>
 				<div class="col-3 col-lg-2 overflow-hidden logo-card">
-					<img alt="Jean Paul Gaultier" src="img/logos/gaultier.png" >
+					<img alt="Jean Paul Gaultier" class="lazy" data-src="img/logos/gaultier.png" >
 				</div>
 				<div class="col-3 col-lg-2 overflow-hidden logo-card">
-					<img alt="Genny" src="img/logos/genny.png" >
+					<img alt="Genny" class="lazy" data-src="img/logos/genny.png" >
 				</div>
 				<div class="col-3 col-lg-2 overflow-hidden logo-card">
-					<img alt="Antonio Grimaldi" src="img/logos/grimaldi.png" >
+					<img alt="Antonio Grimaldi" class="lazy" data-src="img/logos/grimaldi.png" >
 				</div>
 				<div class="col-3 col-lg-2 overflow-hidden logo-card">
-					<img alt="Guy Laroche" src="img/logos/guy.png" >
+					<img alt="Guy Laroche" class="lazy" data-src="img/logos/guy.png" >
 				</div>
 				<div class="col-3 col-lg-2 overflow-hidden logo-card">
-					<img alt="Rami Kadi" src="img/logos/kadi.png" >
+					<img alt="Rami Kadi" class="lazy" data-src="img/logos/kadi.png" >
 				</div>
 				<div class="col-3 col-lg-2 overflow-hidden logo-card">
-					<img alt="Calvin Klein" src="img/logos/klein.png" >
+					<img alt="Calvin Klein" class="lazy" data-src="img/logos/klein.png" >
 				</div>
 				<div class="col-3 col-lg-2 overflow-hidden logo-card">
-					<img alt="LaQuan Smith" src="img/logos/laquan.png" >
+					<img alt="LaQuan Smith" class="lazy" data-src="img/logos/laquan.png" >
 				</div>
 				<div class="col-3 col-lg-2 overflow-hidden logo-card">
-					<img alt="Leonard Paris" src="img/logos/leonard.png" >
+					<img alt="Leonard Paris" class="lazy" data-src="img/logos/leonard.png" >
 				</div>
 				<div class="col-3 col-lg-2 overflow-hidden logo-card">
-					<img alt="Max Mara" src="img/logos/maxmara.png" >
+					<img alt="Max Mara" class="lazy" data-src="img/logos/maxmara.png" >
 				</div>
 				<div class="col-3 col-lg-2 overflow-hidden logo-card">
-					<img alt="Thierry Mugler" src="img/logos/mugler.png" >
+					<img alt="Thierry Mugler" class="lazy" data-src="img/logos/mugler.png" >
 				</div>
 				<div class="col-3 col-lg-2 overflow-hidden logo-card">
-					<img alt="Zuhair Murad" src="img/logos/murad.png" >
+					<img alt="Zuhair Murad" class="lazy" data-src="img/logos/murad.png" >
 				</div>
 				<div class="col-3 col-lg-2 overflow-hidden logo-card">
-					<img alt="CoStume National" src="img/logos/national.png" >
+					<img alt="CoStume National" class="lazy" data-src="img/logos/national.png" >
 				</div>
 				<div class="col-3 col-lg-2 overflow-hidden logo-card">
-					<img alt="La Perla" src="img/logos/perla.png" >
+					<img alt="La Perla" class="lazy" data-src="img/logos/perla.png" >
 				</div>
 				<div class="col-3 col-lg-2 overflow-hidden logo-card">
-					<img alt="Agatha Ruiz de la Prada" src="img/logos/prada.png" >
+					<img alt="Agatha Ruiz de la Prada" class="lazy" data-src="img/logos/prada.png" >
 				</div>
 				<div class="col-3 col-lg-2 overflow-hidden logo-card">
-					<img alt="Verica Rakočević" src="img/logos/rakocevic.png" >
+					<img alt="Verica Rakočević" class="lazy" data-src="img/logos/rakocevic.png" >
 				</div>
 				<div class="col-3 col-lg-2 overflow-hidden logo-card">
-					<img alt="RoccoBarocco" src="img/logos/rb.png" >
+					<img alt="RoccoBarocco" class="lazy" data-src="img/logos/rb.png" >
 				</div>
 				<div class="col-3 col-lg-2 overflow-hidden logo-card">
-					<img alt="Ungaro" src="img/logos/ungaro.png" >
+					<img alt="Ungaro" class="lazy" data-src="img/logos/ungaro.png" >
 				</div>
 				<div class="col-3 col-lg-2 overflow-hidden logo-card">
-					<img alt="Versus Versace" src="img/logos/versace.png" >
+					<img alt="Versus Versace" class="lazy" data-src="img/logos/versace.png" >
 				</div>
 			</div>
 		</div>

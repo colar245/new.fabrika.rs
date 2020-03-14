@@ -190,90 +190,18 @@ function WriteFooter($location = '')
 		<script src="../node_modules/underscore/underscore-min.js"></script>
 	    <script src="../node_modules/moment/min/moment.min.js"></script>
 		<script type="text/javascript" src="assets/js/clndr.js"></script>
-		<script type="text/javascript">
-		// Call this from the developer console and you can control both instances
-	    var calendars = {};
-
-	    $(document).ready( function() {
-
-	        // Assuming you've got the appropriate language files,
-	        // clndr will respect whatever moment's language is set to.
-	        // moment.locale('ru');
-
-	        // Here's some magic to make sure the dates are happening this month.
-	        var thisMonth = moment().format('YYYY-MM');
-	        // console.log(thisMonth);
-	        // Events to load into calendar
-	        var eventArray = [
-	            {
-	                title: 'Multi-Day Event',
-	                endDate: thisMonth + '-14',
-	                startDate: thisMonth + '-10'
-	            }, {
-	                endDate: thisMonth + '-23',
-	                startDate: thisMonth + '-21',
-	                title: 'Another Multi-Day Event'
-	            }, {
-	                date: 	'2020-05' + '-24',
-	                title: 'Another Multi-Day Event'
-	            }, {
-	                date: thisMonth + '-27',
-	                title: 'Single Day Event'
-	            }
-	        ];
-
-	        calendars.clndr1 = $('.cal').clndr({
-	            events: eventArray,
-	            clickEvents: {
-	                click: function (target) {
-	                },
-	                today: function () {
-	                },
-	                nextMonth: function () {
-	                },
-	                previousMonth: function () {
-	                },
-	                onMonthChange: function () {
-	                },
-	                nextYear: function () {
-	                },
-	                previousYear: function () {
-	                },
-	                onYearChange: function () {
-	                },
-	                nextInterval: function () {
-	                },
-	                previousInterval: function () {
-	                },
-	                onIntervalChange: function () {
-	                }
-	            },
-	            multiDayEvents: {
-	                singleDay: 'date',
-	                endDate: 'endDate',
-	                startDate: 'startDate'
-	            },
-	            showAdjacentMonths: true,
-	            adjacentDaysChangeMonth: false
-	        });
-
-	        // Bind all clndrs to the left and right arrow keys
-	        $(document).keydown( function(e) {
-	            // Left arrow
-	            if (e.keyCode == 37) {
-	                calendars.clndr1.back();
-	            }
-
-	            // Right arrow
-	            if (e.keyCode == 39) {
-	                calendars.clndr1.forward();
-	            }
-	        });
-	    });
-		</script>
+		<script type="text/javascript" src="assets/js/cal.js"></script>
 	<?php } ?>
 	<!-- Font CDN -->
 	<script src="https://kit.fontawesome.com/3f7f7bdb28.js" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@13.0.1/dist/lazyload.min.js"></script>
+	<script type="text/javascript">
+		// LazyLoad
+		var lazyLoadInstance = new LazyLoad({
+		    elements_selector: ".lazy"
+		    // ... more custom settings?
+		});
+	</script>
 	<!-- JS not Supported! -->
 	<noscript>Your browser does not support JavaScript!</noscript>
 	</body>
@@ -288,7 +216,7 @@ function WriteCard($img, $alt, $title, $subtitle, $body, $link, $href)
 	<div class="event-card col-12 col-md-6 col-lg-4 mb-4">
 		<div class="card bg-light border-dark h-100 shadow">
 			<div class="card-body">
-				<img srcset="img/sm/<?=$img;?> 500w, img/md/<?=$img;?> 1000w, img/lg/<?=$img;?> 2000w" class="card-img-top" alt="<?= ($alt === '') ? '...' : $alt; ?>">
+				<img data-src="img/sm/<?=$img;?>" data-srcset="img/sm/<?=$img;?> 500w, img/md/<?=$img;?> 1000w, img/lg/<?=$img;?> 2000w" class="card-img-top lazy" alt="<?= ($alt === '') ? '...' : $alt; ?>">
 				<h5 class="card-title m-2"><?=($title === '') ? 'Naslov' :  $title; ?></h5>
 				<h6 class="card-subtitle m-2"><?= ($subtitle === '') ? '...' : $subtitle; ?></h6>
 				<p class="card-text"><?=($body === '') ? '...' :  $body; ?></p>
@@ -308,7 +236,7 @@ function WriteRotate($img, $title, $text, $href)
 	<div class="col-12 col-sm-6 col-xl-4 row">
 		<div class="r-card">
 			<div class="r-front shadow-lg">
-				<img srcset="img/sm/<?=$img;?> 500w, img/md/<?=$img;?> 1000w, img/lg/<?=$img;?> 2000w" class="r-card-img" alt="...">
+				<img data-src="img/sm/<?=$img;?>" data-srcset="img/sm/<?=$img;?> 500w, img/md/<?=$img;?> 1000w, img/lg/<?=$img;?> 2000w" class="r-card-img lazy" alt="...">
 			</div>
 			<div class="r-back shadow-lg">
 				<div class="r-backCont">
