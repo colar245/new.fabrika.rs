@@ -10,13 +10,13 @@
 		<div id="hero" class="carousel carousel-fade" data-ride="carousel">
 		  <div class="carousel-inner">
 		    <div class="carousel-item active">
-		      <img src="img/sm/4.jpg" srcset="img/sm/4.jpg 500w, img/md/4.jpg 1000w, img/lg/4.jpg 2000w" class="d-block w-100" alt="...">
+		      <img src="img/sm/4.jpg" srcset="img/sm/4.jpg 360w, img/md/4.jpg 1280w, img/lg/4.jpg 1920w" class="d-block w-100" alt="...">
 		    </div>
 		    <div class="carousel-item">
-		      <img src="img/sm/5.jpg" srcset="img/sm/5.jpg 500w, img/md/5.jpg 1000w, img/lg/5.jpg 2000w" class="d-block w-100" alt="...">
+		      <img src="img/sm/5.jpg" srcset="img/sm/5.jpg 360w, img/md/5.jpg 1280w, img/lg/5.jpg 1920w" class="d-block w-100" alt="...">
 		    </div>
 		    <div class="carousel-item">
-		      <img src="img/sm/6.jpg" srcset="img/sm/6.jpg 500w, img/md/6.jpg 1000w, img/lg/6.jpg 2000w" class="d-block w-100" alt="...">
+		      <img src="img/sm/6.jpg" srcset="img/sm/6.jpg 360w, img/md/6.jpg 1280w, img/lg/6.jpg 1920w" class="d-block w-100" alt="...">
 		    </div>
 		  </div>
 		  <a class="carousel-control-prev" href="#hero" role="button" data-slide="prev">
@@ -35,7 +35,7 @@
 	    		<div class="cal"></div>
 	    	</div>
 		    <div class="col-12 col-md-8 coming-next pb-5 m-auto">
-		    	<img data-src="img/sm/POZIV.jpg" data-srcset="img/sm/POZIV.jpg 500w, img/md/POZIV.jpg 1000w, img/lg/POZIV.jpg 2000w" class="shadow-lg rounded-lg lazy">
+		    	<img data-src="img/sm/POZIV.jpg" data-srcset="img/sm/POZIV.jpg 360w, img/md/POZIV.jpg 1280w, img/lg/POZIV.jpg 1920w" class="shadow-lg rounded-lg lazy">
 		    </div>
     	</div>
 	</div>
@@ -76,95 +76,37 @@
 			<hr class="primary100">
 			</h2>
 			<br>
-			<div class="a-c row  mb-3 ml-auto mr-auto col-12 col-lg-10">
-				<div class="col-3 col-lg-2 overflow-hidden logo-card">
-					<img alt="Renato Balestra" class="lazy" data-src="img/logos/balestra.png" >
-				</div>
-				<div class="col-3 col-lg-2 overflow-hidden logo-card">
-					<img alt="Luisa Beccaria" class="lazy" data-src="img/logos/beccaria.png" >
-				</div>
-				<div class="col-3 col-lg-2 overflow-hidden logo-card">
-					<img alt="Cacharel" class="lazy" data-src="img/logos/cacharel.png" >
-				</div>
-				<div class="col-3 col-lg-2 overflow-hidden logo-card">
-					<img alt="Pierre Cardin" class="lazy" data-src="img/logos/cardin.png" >
-				</div>
-				<div class="col-3 col-lg-2 overflow-hidden logo-card">
-					<img alt="Cerruti" class="lazy" data-src="img/logos/cerruti.png" >
-				</div>
-				<div class="col-3 col-lg-2 overflow-hidden logo-card">
-					<img alt="Alviero Martini 1a Classe" class="lazy" data-src="img/logos/classe.png" >
-				</div>
-				<div class="col-3 col-lg-2 overflow-hidden logo-card">
-					<img alt="Enrico Coveri" class="lazy" data-src="img/logos/coveri.png" >
-				</div>
-				<div class="col-3 col-lg-2 overflow-hidden logo-card">
-					<img alt="Dior" class="lazy" data-src="img/logos/dior.png" >
-				</div>
-				<div class="col-3 col-lg-2 overflow-hidden logo-card">
-					<img alt="DVF" class="lazy" data-src="img/logos/dvf.png" >
-				</div>
-				<div class="col-3 col-lg-2 overflow-hidden logo-card">
-					<img alt="GF Ferre" class="lazy" data-src="img/logos/ferre.png" >
-				</div>
-				<div class="col-3 col-lg-2 overflow-hidden logo-card">
-					<img alt="Gattinoni" class="lazy" data-src="img/logos/gattioni.png" >
-				</div>
-				<div class="col-3 col-lg-2 overflow-hidden logo-card">
-					<img alt="Jean Paul Gaultier" class="lazy" data-src="img/logos/gaultier.png" >
-				</div>
-				<div class="col-3 col-lg-2 overflow-hidden logo-card">
-					<img alt="Genny" class="lazy" data-src="img/logos/genny.png" >
-				</div>
-				<div class="col-3 col-lg-2 overflow-hidden logo-card">
-					<img alt="Antonio Grimaldi" class="lazy" data-src="img/logos/grimaldi.png" >
-				</div>
-				<div class="col-3 col-lg-2 overflow-hidden logo-card">
-					<img alt="Guy Laroche" class="lazy" data-src="img/logos/guy.png" >
-				</div>
-				<div class="col-3 col-lg-2 overflow-hidden logo-card">
-					<img alt="Rami Kadi" class="lazy" data-src="img/logos/kadi.png" >
-				</div>
-				<div class="col-3 col-lg-2 overflow-hidden logo-card">
-					<img alt="Calvin Klein" class="lazy" data-src="img/logos/klein.png" >
-				</div>
-				<div class="col-3 col-lg-2 overflow-hidden logo-card">
-					<img alt="LaQuan Smith" class="lazy" data-src="img/logos/laquan.png" >
-				</div>
-				<div class="col-3 col-lg-2 overflow-hidden logo-card">
-					<img alt="Leonard Paris" class="lazy" data-src="img/logos/leonard.png" >
-				</div>
-				<div class="col-3 col-lg-2 overflow-hidden logo-card">
-					<img alt="Max Mara" class="lazy" data-src="img/logos/maxmara.png" >
-				</div>
-				<div class="col-3 col-lg-2 overflow-hidden logo-card">
-					<img alt="Thierry Mugler" class="lazy" data-src="img/logos/mugler.png" >
-				</div>
-				<div class="col-3 col-lg-2 overflow-hidden logo-card">
-					<img alt="Zuhair Murad" class="lazy" data-src="img/logos/murad.png" >
-				</div>
-				<div class="col-3 col-lg-2 overflow-hidden logo-card">
-					<img alt="CoStume National" class="lazy" data-src="img/logos/national.png" >
-				</div>
-				<div class="col-3 col-lg-2 overflow-hidden logo-card">
-					<img alt="La Perla" class="lazy" data-src="img/logos/perla.png" >
-				</div>
-				<div class="col-3 col-lg-2 overflow-hidden logo-card">
-					<img alt="Agatha Ruiz de la Prada" class="lazy" data-src="img/logos/prada.png" >
-				</div>
-				<div class="col-3 col-lg-2 overflow-hidden logo-card">
-					<img alt="Verica Rakočević" class="lazy" data-src="img/logos/rakocevic.png" >
-				</div>
-				<div class="col-3 col-lg-2 overflow-hidden logo-card">
-					<img alt="RoccoBarocco" class="lazy" data-src="img/logos/rb.png" >
-				</div>
-				<div class="col-3 col-lg-2 overflow-hidden logo-card">
-					<img alt="Ungaro" class="lazy" data-src="img/logos/ungaro.png" >
-				</div>
-				<div class="col-3 col-lg-2 overflow-hidden logo-card">
-					<img alt="Versus Versace" class="lazy" data-src="img/logos/versace.png" >
-				</div>
-			</div>
+			<?php WriteLogos(array(
+				array('alt' => 'Renato Balestra', 'src' => 'balestra'),
+				array('alt' => 'Luisa Beccaria', 'src' => 'beccaria'),
+				array('alt' => 'Cacharel', 'src' => 'cacharel'),
+				array('alt' => 'Pierre Cardin', 'src' => 'cardin'),
+				array('alt' => 'Cerruti', 'src' => 'cerruti'),
+				array('alt' => 'Alviero Martini 1a Classe', 'src' => 'classe'),
+				array('alt' => 'Enrico Coveri', 'src' => 'coveri'),
+				array('alt' => 'Dior', 'src' => 'dior'),
+				array('alt' => 'DVF', 'src' => 'dvf'),
+				array('alt' => 'GF Ferre', 'src' => 'ferre'),
+				array('alt' => 'Gattinoni', 'src' => 'gattioni'),
+				array('alt' => 'Jean Paul Gaultier', 'src' => 'gaultier'),
+				array('alt' => 'Genny', 'src' => 'genny'),
+				array('alt' => 'Antonio Grimaldi', 'src' => 'grimaldi'),
+				array('alt' => 'Guy Laroche', 'src' => 'guy'),
+				array('alt' => 'Rami Kadi', 'src' => 'kadi'),
+				array('alt' => 'Calvin Klein', 'src' => 'klein'),
+				array('alt' => 'LaQuan Smith', 'src' => 'laquan'),
+				array('alt' => 'Leonard Paris', 'src' => 'leonard'),
+				array('alt' => 'Max Mara', 'src' => 'maxmara'),
+				array('alt' => 'Thierry Mugler', 'src' => 'mugler'),
+				array('alt' => 'Zuhair Murad', 'src' => 'murad'),
+				array('alt' => 'CoStume National', 'src' => 'national'),
+				array('alt' => 'La Perla', 'src' => 'perla'),
+				array('alt' => 'Agatha Ruiz de la Prada', 'src' => 'prada'),
+				array('alt' => 'Verica Rakočević', 'src' => 'rakocevic'),
+				array('alt' => 'Rocco Barocco', 'src' => 'rb'),
+				array('alt' => 'Ungaro', 'src' => 'ungaro'),
+				array('alt' => 'Versus Versace', 'src' => 'versace')
+			)); ?>
 		</div>
 		<br>
 	</div>

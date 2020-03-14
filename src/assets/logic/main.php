@@ -216,7 +216,7 @@ function WriteCard($img, $alt, $title, $subtitle, $body, $link, $href)
 	<div class="event-card col-12 col-md-6 col-lg-4 mb-4">
 		<div class="card bg-light border-dark h-100 shadow">
 			<div class="card-body">
-				<img data-src="img/sm/<?=$img;?>" data-srcset="img/sm/<?=$img;?> 500w, img/md/<?=$img;?> 1000w, img/lg/<?=$img;?> 2000w" class="card-img-top lazy" alt="<?= ($alt === '') ? '...' : $alt; ?>">
+				<img data-src="img/sm/<?=$img;?>" data-srcset="img/sm/<?=$img;?> 360w, img/md/<?=$img;?> 1280w, img/lg/<?=$img;?> 1920w" class="card-img-top lazy" alt="<?= ($alt === '') ? '...' : $alt; ?>">
 				<h5 class="card-title m-2"><?=($title === '') ? 'Naslov' :  $title; ?></h5>
 				<h6 class="card-subtitle m-2"><?= ($subtitle === '') ? '...' : $subtitle; ?></h6>
 				<p class="card-text"><?=($body === '') ? '...' :  $body; ?></p>
@@ -228,6 +228,18 @@ function WriteCard($img, $alt, $title, $subtitle, $body, $link, $href)
 	</div>
 	<?php 
 	}
+function WriteLogos($logos)
+	{
+		echo "<div class='a-c row  mb-3 ml-auto mr-auto col-12 col-lg-10'>";
+		foreach ($logos as $logo) {
+			?>
+			<div class="col-3 col-lg-2 overflow-hidden logo-card">
+				<img alt="<?=$logo["alt"];?>" class="lazy" data-src="img/logos/<?=$logo["src"];?>.png" >
+			</div>
+			<?php
+		}
+		echo "</div>";
+	}
 
 function WriteRotate($img, $title, $text, $href)
 	{ 
@@ -236,7 +248,7 @@ function WriteRotate($img, $title, $text, $href)
 	<div class="col-12 col-sm-6 col-xl-4 row">
 		<div class="r-card">
 			<div class="r-front shadow-lg">
-				<img data-src="img/sm/<?=$img;?>" data-srcset="img/sm/<?=$img;?> 500w, img/md/<?=$img;?> 1000w, img/lg/<?=$img;?> 2000w" class="r-card-img lazy" alt="...">
+				<img data-src="img/sm/<?=$img;?>" data-srcset="img/sm/<?=$img;?> 360w, img/md/<?=$img;?> 1280w, img/lg/<?=$img;?> 1920w" class="r-card-img lazy" alt="...">
 			</div>
 			<div class="r-back shadow-lg">
 				<div class="r-backCont">

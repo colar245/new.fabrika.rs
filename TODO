@@ -6,16 +6,15 @@
 # pages
 	modeling page
 	extraordinary persons page - awards cards
+	card dropdown gallery
 # SQL
 	integrate db (gallery logic)
 	CMS
 	migrate content from old site
-card dropdown gallery
 # SEO
 	schema.org
 	google analitic
 # DevOps
 	.htaccess (started)
-	robot.txt
 	sitemap.xml
 	add db to C-Panel
