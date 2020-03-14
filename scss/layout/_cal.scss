@@ -77,7 +77,8 @@
 }
 
 .jzdcalt {
-  font:18px 'Roboto'; 
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px; 
   font-weight:700; 
   color:_palette(light); 
   display:block; 
@@ -88,7 +89,8 @@
 }
 
 .jzdcal span {
-  font:10px 'Roboto'; 
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 10px;
   font-weight:400; 
   color:_palette(light); 
   text-align:center; 
@@ -102,7 +104,7 @@
 
 @media (min-width: 992px) {
   .jzdcal span {
-    font:11px 'Roboto';
+    font-size: 11px;
     width:42px; 
     height:42px;
     line-height:40px;
@@ -116,7 +118,8 @@
 
 span[data-title]:hover:after, 
 div[data-title]:hover:after {
-  font:11px 'Roboto'; 
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 11px; 
   font-weight:400; 
   content:attr(data-title); 
   position:absolute; 
