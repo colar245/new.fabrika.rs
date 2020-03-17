@@ -2,7 +2,6 @@
 	$location = '404';
 	WriteHead($location);
 ?>
-<body>
 <!-- NAVIGATION -->
 <?php WriteNav($location);?>
 <div class="wrap-404 container-fluid m-0 p-0">

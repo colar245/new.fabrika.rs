@@ -15,6 +15,23 @@
 .fa-youtube {
  color:#b00000;
 }
+.fa-arrow-alt-circle-down {
+	font-size: 2em;
+	margin-right: .3em;
+	margin-left: .3em;
+	color: _palette(bg);
+	transition: 300ms ease;
+}
+.fa-arrow-alt-circle-down:hover {
+	text-decoration: none;
+}
+// .fa-arrow-alt-circle-down:active {
+// 	font-size: 2em;
+// 	margin-right: .3em;
+// 	margin-left: .3em;
+// 	transform: rotate(180deg);
+// 	transition: 300ms ease;
+// }
 .icon {
 	font-size: 3em;
 	margin-right: .5em;

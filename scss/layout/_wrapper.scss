@@ -80,3 +80,29 @@
 			}
 		}
 	}
+
+	#loader {
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		z-index: 1;
+		border: calc(#{_size(loader)}/8) solid _palette(bg);
+		border-radius: 50%;
+		border-top: calc(#{_size(loader)}/8) solid _palette(primary);
+		// border-bottom: calc(#{_size(loader)}/8) solid _palette(primary);
+		width: _size(loader);
+		height: _size(loader);
+		-webkit-animation: spin 2s linear infinite; /* Safari */
+		animation: spin 2s linear infinite;
+
+		/* Safari */
+		@-webkit-keyframes spin {
+			0% { -webkit-transform: rotate(0deg); }
+			100% { -webkit-transform: rotate(360deg); }
+		}
+
+		@keyframes spin {
+			0% { transform: rotate(0deg); }
+			100% { transform: rotate(360deg); }
+		}
+	}

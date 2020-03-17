@@ -20,7 +20,7 @@ function send_mail($from = 'null', $name = 'null', $body = '. . .')
         $mail->Host       = 'smtp.sendgrid.net';                    // Set the SMTP server to send through
         $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
         $mail->Username   = 'apikey';                               // SMTP username
-        $mail->Password   = API_Key['SendGrid'];          			// SMTP password // API keys kept at config.php
+        $mail->Password   = API_KEY['SendGrid'];          			// SMTP password // API keys kept at config.php
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;         // Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` encouraged
         $mail->Port       = 587;                                    // TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above
 
@@ -41,6 +41,42 @@ function send_mail($from = 'null', $name = 'null', $body = '. . .')
         echo "<br><br><div class='alert alert-danger alert-dismissible fade show' role='alert'>Message could not be sent. Mailer Error: {$mail->ErrorInfo}</div>"; # <button type='button' class='close' data-dismiss='alert' aria-label='Close' style='box-shadow: none;'><span aria-hidden='true'>&times;</span></button>
     }
 }
+
+function AddScripts($location='')
+	{
+	?>
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script type="text/javascript" src="../node_modules/jquery/dist/jquery.min.js"></script>
+	<script type="text/javascript" src="../node_modules/popper.js/dist/umd/popper.min.js"></script>
+	<script type="text/javascript" src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+	<!-- Multiverse JS -->
+	<script type="text/javascript" src="assets/js/jquery.poptrox.min.js"></script>
+	<script type="text/javascript" src="assets/js/browser.min.js"></script>
+	<script type="text/javascript" src="assets/js/breakpoints.min.js"></script>
+	<script type="text/javascript" src="assets/js/util.js"></script>
+	<?php if ($location === 'Home') { ?>
+		<!-- Calendar -->
+		<script src="../node_modules/underscore/underscore-min.js"></script>
+	    <script src="../node_modules/moment/min/moment.min.js"></script>
+		<script type="text/javascript" src="assets/js/clndr.js"></script>
+		<script type="text/javascript" src="assets/js/cal.js"></script>
+	<?php } ?>
+	<!-- Gallery -->
+	<script type="text/javascript" src="assets/js/gallery.js"></script>
+
+	<!-- Font CDN -->
+	<script src="https://kit.fontawesome.com/3f7f7bdb28.js" crossorigin="anonymous"></script>
+	<!-- Quicklink  -->
+	<script src="../node_modules/quicklink/dist/quicklink.umd.js"></script>
+	<!-- LazyLoad -->
+	<script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@13.0.1/dist/lazyload.min.js"></script>
+	<script type="text/javascript" src="assets/js/coki.js"></script>
+	<!-- JS not Supported! -->
+	<noscript>Your browser does not support JavaScript!</noscript>
+	</body>
+	</html>
+	<?php 
+	}
 
 function WriteHead($a)
 	{
@@ -71,6 +107,8 @@ function WriteNav($a)
 		$location 	= '-1';
 		$location 	= $a;
 	?>
+	<body class="is-preload">
+	<!-- NAVIGATION -->
 	<header>
 		<div class="w-100 text-center bg-light logo">
 			<a href="index.php"><img src="img/logos/fabrika.png" class="" alt="Fabrika logo"></a>
@@ -102,12 +140,15 @@ function WriteNav($a)
 			</div>
 		</nav>
 	</header>
+	<!-- Wrapper -->
+	<div id="wrapper">
 	<?php
 	}
 
 function WriteFooter($location = '')
 	{
 	?>
+	</div>
 	<footer id="header">
 		<h1><a href="index.php"><strong>Fabrika</strong> Beograd</a></h1>
 		<nav>
@@ -175,38 +216,8 @@ function WriteFooter($location = '')
 		</div>
 	</footer>
 	<!-- Add Scripts -->
-	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-	<script type="text/javascript" src="../node_modules/jquery/dist/jquery.min.js"></script>
-	<script type="text/javascript" src="../node_modules/popper.js/dist/umd/popper.min.js"></script>
-	<script type="text/javascript" src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-	<!-- Multiverse JS -->
-	<script type="text/javascript" src="assets/js/jquery.poptrox.min.js"></script>
-	<script type="text/javascript" src="assets/js/browser.min.js"></script>
-	<script type="text/javascript" src="assets/js/breakpoints.min.js"></script>
-	<script type="text/javascript" src="assets/js/util.js"></script>
-	<script type="text/javascript" src="assets/js/main.js"></script>
-	<?php if ($location === 'Home') { ?>
-		<!-- Calendar -->
-		<script src="../node_modules/underscore/underscore-min.js"></script>
-	    <script src="../node_modules/moment/min/moment.min.js"></script>
-		<script type="text/javascript" src="assets/js/clndr.js"></script>
-		<script type="text/javascript" src="assets/js/cal.js"></script>
-	<?php } ?>
-	<!-- Font CDN -->
-	<script src="https://kit.fontawesome.com/3f7f7bdb28.js" crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@13.0.1/dist/lazyload.min.js"></script>
-	<script type="text/javascript">
-		// LazyLoad
-		var lazyLoadInstance = new LazyLoad({
-		    elements_selector: ".lazy"
-		    // ... more custom settings?
-		});
-	</script>
-	<!-- JS not Supported! -->
-	<noscript>Your browser does not support JavaScript!</noscript>
-	</body>
-	</html>
 	<?php
+		AddScripts($location);
 	}
 
 function WriteCard($img, $alt, $title, $subtitle, $body, $link, $href)

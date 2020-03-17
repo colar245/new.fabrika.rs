@@ -24,7 +24,7 @@
 
 		&:hover {
 			border-bottom-color: transparent;
-			color: _palette(accent1) !important;
+			color: _palette(accent1);
 		}
 	}
 
@@ -166,3 +166,6 @@ hr {
 	width: 100%;
 	min-height: inherit;
 }
+ .scroll {
+ 	scroll-behavior: smooth;
+ }

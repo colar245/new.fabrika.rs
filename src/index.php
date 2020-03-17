@@ -2,8 +2,6 @@
 	$location = 'Home';
 	WriteHead($location);
 ?>
-<body>
-<!-- NAVIGATION -->
 <?php WriteNav($location); ?>
 <div class="container-fluid p-0">
 	<div class="col-12 span p-0">
@@ -41,7 +39,7 @@
 	</div>
 	<div class="container-fluid row r-wrap">
 		<div class="col-10 m-auto pt-3">
-			<h1 class="font-weight-bold">Fabrika fashion agency </h3>
+			<h1 class="font-weight-bold">Fabrika fashion agency </h1>
 			<hr class="primary100">
 			<h2 class="font-italic">organizes innovative campaigns and events for more than 20 years . . .</h2>
 		</div>
